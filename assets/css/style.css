@@ -2704,7 +2704,7 @@ hr{
     font-family:"Sen",sans-serif;
     font-weight:700;
     margin-bottom:30px;
-    color:#000a2d;
+    color:#1a753a;
     display:inline-block
 }
 .about-details .about-details-cap p{
@@ -2857,9 +2857,10 @@ hr{
     margin-bottom:3px
 }
 .team-area .single-team .team-caption h3 a{
-    color:#33384e;
+    color:#f89619;
     font-weight:700;
     font-size:25px
+    
 }
 @media only screen and (min-width: 768px) and (max-width: 991px){
     .team-area .single-team .team-caption h3 a{
@@ -2871,6 +2872,11 @@ hr{
 }
 .team-area .single-team .team-caption p{
     color:#57667e
+}
+
+.deg {
+    color: green !important;
+    font-weight: 800 !important;
 }
 .team-area .single-team:hover .team-img img{
     transform:scale(1.06)
