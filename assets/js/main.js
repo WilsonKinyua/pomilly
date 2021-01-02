@@ -1,3 +1,12 @@
+//   <!-- 
+//   ========================================================================
+//   Developed and created by Developer Wilson
+//   Reach me through email: wilsonkinyuam@gmail.com for ant question or something 
+//   Phone Number: +254717255460 
+// =======================================================================================
+// -->
+
+
 (function ($)
   { "use strict"
   
