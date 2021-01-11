@@ -15,7 +15,7 @@
     <title>ENVIRONMENTAL, OCCUPATIONAL SAFETY & PUBLIC HEALTH CONSULTANCY | Pomilly East African Limited</title>
     <meta name="description" content="ENVIRONMENTAL, OCCUPATIONAL SAFETY & PUBLIC HEALTH CONSULTANCY | Pomilly East African Limited">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="manifest" href="site.php">
+    <link rel="manifest" href="site">
     <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
 
     <!-- CSS here -->
@@ -84,59 +84,59 @@
                 <div class="header-bottom header-sticky">
                     <!-- Logo -->
                     <div class="logo d-none d-lg-block">
-                        <a href="index-2.php"><img src="assets/img/PomillyLogo2.jpg" width="180px" height="98px"
+                        <a href="index"><img src="assets/img/PomillyLogo2.jpg" width="180px" height="98px"
                                 alt=""></a>
                     </div>
                     <div class="container">
                         <div class="menu-wrapper">
                             <!-- Logo -->
                             <div class="logo logo2 d-block d-lg-none">
-                                <a href="index.php"><img src="assets/img/PomillyLogo2.jpg" width="180px"
+                                <a href="index"><img src="assets/img/PomillyLogo2.jpg" width="180px"
                                         height="98px" alt=""></a>
                             </div>
                             <!-- Main-menu -->
                             <div class="main-menu d-none d-lg-block">
                                 <nav>
                                     <ul id="navigation">
-                                        <li><a href="index-2.php">HOME</a></li>
+                                        <li><a href="index">HOME</a></li>
 
                                         <li><a href="#">COMPANY</a>
                                             <ul class="submenu">
-                                                <li><a href="aboutus.php">About Us</a></li>
-                                                <li><a href="missionandvision.php">Mission & Vision</a></li>
-                                                <li><a href="corevalues.php">Core Values</a></li>
-                                                <li><a href="motto.php">Motto</a></li>
-                                                <li><a href="ourhistory.php">Our History</a></li>
-                                                <li><a href="whatisfoodrecycling.php">What is food Recycling</a></li>
-                                                <li><a href="whatwedo.php">What We do</a></li>
-                                                <li><a href="depositfood.php">Deposit Food</a></li>
-                                                <li><a href="volunteer.php">Volunteer</a></li>
-                                                <li><a href="donate.php">Donate</a></li>
-                                                <li><a href="whatsnew.php">What's New</a></li>
-                                                <li><a href="careers.php">Careers</a></li>
+                                                <li><a href="aboutus">About Us</a></li>
+                                                <li><a href="missionandvision">Mission & Vision</a></li>
+                                                <li><a href="corevalues">Core Values</a></li>
+                                                <li><a href="motto">Motto</a></li>
+                                                <li><a href="ourhistory">Our History</a></li>
+                                                <li><a href="whatisfoodrecycling">What is food Recycling</a></li>
+                                                <li><a href="whatwedo">What We do</a></li>
+                                                <li><a href="depositfood">Deposit Food</a></li>
+                                                <li><a href="volunteer">Volunteer</a></li>
+                                                <li><a href="donate">Donate</a></li>
+                                                <li><a href="whatsnew">What's New</a></li>
+                                                <li><a href="careers">Careers</a></li>
                                             </ul>
                                         </li>
 
-                                        <li><a href="team.php">TEAM</a></li>
+                                        <li><a href="team">TEAM</a></li>
 
-                                        <li><a href="ourgoals.php">OUR GOALS</a></li>
+                                        <li><a href="ourgoals">OUR GOALS</a></li>
 
                                         <li><a href="#">SERVICES</a>
                                             <ul class="submenu">
-                                                <li><a href="sustainableagriculturalconsultancy.php">SUSTAINABLE
+                                                <li><a href="sustainableagriculturalconsultancy">SUSTAINABLE
                                                         AGRICULTURAL CONSULTANCY</a></li>
-                                                <li><a href="foodwasterecyclingindustry.php">FOOD WASTE RECYCLING
+                                                <li><a href="foodwasterecyclingindustry">FOOD WASTE RECYCLING
                                                         INDUSTRY</a></li>
-                                                <li><a href="foodbankingfoodsecurity.php">FOOD BANKING & FOOD SECURITY
+                                                <li><a href="foodbankingfoodsecurity">FOOD BANKING & FOOD SECURITY
                                                         CONSULTANCY</a></li>
-                                                <li><a href="eosphconsultancy.php">ENVIRONMENTAL, OCCUPATIONAL SAFETY &
+                                                <li><a href="eosphconsultancy">ENVIRONMENTAL, OCCUPATIONAL SAFETY &
                                                         PUBLIC HEALTH CONSULTANCY</a></li>
 
                                             </ul>
                                         </li>
-                                        <li><a href="blog.php">BLOG</a></li>
+                                        <li><a href="blog">BLOG</a></li>
 
-                                        <li><a href="contactus.php">CONTACT US</a></li>
+                                        <li><a href="contactus">CONTACT US</a></li>
                                     </ul>
                                 </nav>
                             </div>

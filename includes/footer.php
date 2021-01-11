@@ -10,10 +10,10 @@
                                 <div class="footer-tittle">
                                     <h4>Company</h4>
                                     <ul>
-                                        <li><a href="aboutus.php" style="color:white">About Us</a></li>
-                                        <li><a href="missionandvision.php" style="color:white">Mission & Vision</a>
+                                        <li><a href="aboutus" style="color:white">About Us</a></li>
+                                        <li><a href="missionandvision" style="color:white">Mission & Vision</a>
                                         </li>
-                                        <li><a href="corevalues.php" style="color:white">Core Values</a></li>
+                                        <li><a href="corevalues" style="color:white">Core Values</a></li>
 
                                     </ul>
                                 </div>
@@ -24,13 +24,13 @@
                                 <div class="footer-tittle">
                                     <h4>Services</h4>
                                     <ul>
-                                        <li><a href="sustainableagriculturalconsultancy.php"
+                                        <li><a href="sustainableagriculturalconsultancy"
                                                 style="color:white">SUSTAINABLE AGRICULTURAL CONSULTANCY</a></li>
-                                        <li><a href="foodwasterecyclingindustry.php" style="color:white">FOOD WASTE
+                                        <li><a href="foodwasterecyclingindustry" style="color:white">FOOD WASTE
                                                 RECYCLING INDUSTRY</a></li>
-                                        <li><a href="foodbankingfoodsecurity.php" style="color:white">FOOD BANKING &
+                                        <li><a href="foodbankingfoodsecurity" style="color:white">FOOD BANKING &
                                                 FOOD SECURITY CONSULTANCY</a></li>
-                                        <li><a href="eosphconsultancy.php" style="color:white">ENVIRONMENTAL,
+                                        <li><a href="eosphconsultancy" style="color:white">ENVIRONMENTAL,
                                                 OCCUPATIONAL SAFETY & PUBLIC HEALTH CONSULTANCY</a></li>
                                     </ul>
                                 </div>
@@ -41,9 +41,9 @@
                                 <div class="footer-tittle">
                                     <h4>Quick Links</h4>
                                     <ul>
-                                        <li><a href="contactus.php" style="color:white">Contact Us</a></li>
-                                        <li><a href="team.php" style="color:white">Our Team</a></li>
-                                        <li><a href="ourgoals.php" style="color:white">Our Goals</a></li>
+                                        <li><a href="contactus" style="color:white">Contact Us</a></li>
+                                        <li><a href="team" style="color:white">Our Team</a></li>
+                                        <li><a href="ourgoals" style="color:white">Our Goals</a></li>
 
                                     </ul>
                                 </div>
