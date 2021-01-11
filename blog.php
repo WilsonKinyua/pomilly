@@ -1,269 +1,107 @@
-<!doctype html>
-<html class="no-js" lang="zxx">
-<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
-<!-- 
-    ========================================================================
-        Developed and created by Developer Wilson
-        Reach me through email: wilsonkinyuam@gmail.com for ant question or something 
-        Phone Number: +254717255460 
-    =======================================================================================
-     -->
-
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>ENVIRONMENTAL, OCCUPATIONAL SAFETY & PUBLIC HEALTH CONSULTANCY | Pomilly East African Limited</title>
-    <meta name="description" content="Developed by Developer Wilson">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="manifest" href="site.php">
-    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
-
-    <!-- CSS here -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="assets/css/slicknav.css">
-    <link rel="stylesheet" href="assets/css/flaticon.css">
-    <link rel="stylesheet" href="assets/css/gijgo.css">
-    <link rel="stylesheet" href="assets/css/animate.min.css">
-    <link rel="stylesheet" href="assets/css/magnific-popup.css">
-    <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
-    <link rel="stylesheet" href="assets/css/themify-icons.css">
-    <link rel="stylesheet" href="assets/css/slick.css">
-    <link rel="stylesheet" href="assets/css/nice-select.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <!-- <link rel="stylesheet" href="assets/style.css"> -->
-</head>
-
-<body>
-    <!--? Preloader Start -->
-    <div id="preloader-active">
-        <div class="preloader d-flex align-items-center justify-content-center">
-            <div class="preloader-inner position-relative">
-                <div class="preloader-circle"></div>
-                <div class="preloader-img pere-text">
-                    <img src="assets/img/PomillyLogo1.png" alt="">
+<?php include "includes/header.php"; ?>
+<main>
+    <!--? Hero Start -->
+    <div class="slider-area">
+        <div class="slider-height2 d-flex align-items-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="hero-cap hero-cap2 text-center">
+                            <h2>Blog Page</h2>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Preloader Start -->
-    <header>
-        <!-- Header Start -->
-        <div class="header-area">
-            <div class="main-header ">
-                <div class="header-top d-none d-lg-block">
-                    <!-- Left Social -->
-                    <div class="header-left-social">
-                        <ul class="header-social">
-                            <li><a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a></li>
-                            <li><a href="https://www.facebook.com/" target="_blank"><i
-                                        class="fab fa-facebook-f"></i></a></li>
-                            <li><a href="https://www.linkedin.com/" target="_blank"><i
-                                        class="fab fa-linkedin-in"></i></a></li>
-                            <li> <a href="https://instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="container">
-                        <div class="col-xl-12">
-                            <div class="row d-flex justify-content-between align-items-center">
-                                <div class="header-info-left">
-                                    <ul>
-                                        <li>info@pomilly.com</li>
-                                        <li>+254 751 877 377 | +254 745 462 781</li>
-                                    </ul>
-                                </div>
-                                <div class="header-info-right">
-                                    <ul>
 
-                                    </ul>
-                                </div>
-                            </div>
+    <!------ Include the above in your HEAD tag ---------->
+
+    <div class="index-content">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2">
+
+                </div>
+                <a href="#" data-toggle="modal" data-target="#exampleModalCenter">
+                    <div class="col-lg-4">
+                        <div class="card">
+                            <img src="assets/img/services/43.jpg">
+                            <h4> FOOD INSECURITY</h4>
+                            <p>Food Insecurity is the state of being unable to afford
+                                sufficient quantity of affordable or nutritious food........
+                            </p>
+                            <a href="#" data-toggle="modal" data-target="#exampleModalCenter" class="blue-button">Read More</a>
                         </div>
                     </div>
-                </div>
-                <div class="header-bottom header-sticky">
-                    <!-- Logo -->
-                    <div class="logo d-none d-lg-block">
-                        <a href="index-2.php"><img src="assets/img/PomillyLogo2.jpg" width="180px" height="98px"
-                                alt=""></a>
-                    </div>
-                    <div class="container">
-                        <div class="menu-wrapper">
-                            <!-- Logo -->
-                            <div class="logo logo2 d-block d-lg-none">
-                                <a href="index-2.php"><img src="assets/img/PomillyLogo2.jpg" width="180px"
-                                        height="98px" alt=""></a>
-                            </div>
-                            <!-- Main-menu -->
-                            <div class="main-menu d-none d-lg-block">
-                                <nav>
-                                    <ul id="navigation">
-                                        <li><a href="index-2.php">HOME</a></li>
-
-                                        <li><a href="#">COMPANY</a>
-                                            <ul class="submenu">
-                                                <li><a href="aboutus.php">About Us</a></li>
-                                                <li><a href="missionandvision.php">Mission & Vision</a></li>
-                                                <li><a href="corevalues.php">Core Values</a></li>
-                                                <li><a href="motto.php">Motto</a></li>
-                                                <li><a href="ourhistory.php">Our History</a></li>
-                                                <li><a href="whatisfoodrecycling.php">What is food Recycling</a></li>
-                                                <li><a href="whatwedo.php">What We do</a></li>
-                                                <li><a href="depositfood.php">Deposit Food</a></li>
-                                                <li><a href="volunteer.php">Volunteer</a></li>
-                                                <li><a href="donate.php">Donate</a></li>
-                                                <li><a href="whatsnew.php">What's New</a></li>
-                                                <li><a href="careers.php">Careers</a></li>
-                                            </ul>
-                                        </li>
-
-                                        <li><a href="team.php">TEAM</a></li>
-
-                                        <li><a href="ourgoals.php">OUR GOALS</a></li>
-
-                                        <li><a href="#">SERVICES</a>
-                                            <ul class="submenu">
-                                                <li><a href="sustainableagriculturalconsultancy.php">SUSTAINABLE
-                                                        AGRICULTURAL CONSULTANCY</a></li>
-                                                <li><a href="foodwasterecyclingindustry.php">FOOD WASTE RECYCLING
-                                                        INDUSTRY</a></li>
-                                                <li><a href="foodbankingfoodsecurity.php">FOOD BANKING & FOOD SECURITY
-                                                        CONSULTANCY</a></li>
-                                                <li><a href="eosphconsultancy.php">ENVIRONMENTAL, OCCUPATIONAL SAFETY &
-                                                        PUBLIC HEALTH CONSULTANCY</a></li>
-
-                                            </ul>
-                                        </li>
-                                        <li><a href="blog.php">BLOG</a></li>
-
-                                        <li><a href="contactus.php">CONTACT US</a></li>
-                                    </ul>
-                                </nav>
-                            </div>
-                            <!-- Header-btn -->
-                            <div class="header-search d-none d-lg-block">
-
-                                <div class="hero__btn">
-                                    <a href="http://www.pomilly.com/webmail" class="btn hero-btn"
-                                        data-animation="fadeInLeft" data-delay=".8s">Staff Email</a>
-                                </div>
-
-                            </div>
-                        </div>
-                        <!-- Mobile Menu -->
-                        <div class="col-12">
-                            <div class="mobile_menu d-block d-lg-none"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> <!-- Header End -->
-    </header>
-    <main>
-        <!--? Hero Start -->
-        <div class="slider-area">
-            <div class="slider-height2 d-flex align-items-center">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xl-12">
-                            <div class="hero-cap hero-cap2 text-center">
-                                <h2>Blog Page</h2>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-       
-<!------ Include the above in your HEAD tag ---------->
-
-<div class="index-content">
-    <div class="container">
-           <div class="row">
-               <div class="col-lg-2">
-
-               </div>
-            <a href="#" data-toggle="modal" data-target="#exampleModalCenter">
-                <div class="col-lg-4">
-                    <div class="card">
-                        <img src="assets/img/services/43.jpg">
-                        <h4> FOOD INSECURITY</h4>
-                        <p>Food Insecurity is the state of being unable to afford
-                            sufficient quantity of affordable or nutritious food........
-                        </p>
-                        <a href="#" data-toggle="modal" data-target="#exampleModalCenter" class="blue-button">Read More</a>
-                    </div>
-                </div>
-            </a>                
+                </a>
                 <!-- Modal -->
                 <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                     <div class="modal-dialog modal-dialog-centered" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLongTitle">FOOD INSECURITY</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLongTitle">FOOD INSECURITY</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <!-- <h4>Blog</h4> -->
+                                <p align="justify">Food Insecurity is the state of being unable to afford
+                                    sufficient quantity of affordable or nutritious food.
+                                </p>
+
+                                <p align="justify">#HIDDENPOVERTY <br>
+                                    “Food is a basic human right. In a 3rd world country like Kenya no one
+                                    should be deprived of the ability to feed themselves.” Pondi Collins
+                                    Co-Founder of Pomilly East African Limited (PEAL)
+                                </p>
+
+                                <p align="justify">With no poverty line and minimum wage in Kenya it can be
+                                    challenging to measure and identify people who struggle to make ends
+                                    meet and require the most basic needs like food and shelter.
+
+                                </p>
+
+                                <p align="justify">
+                                    FOOD INSECURITY RESEARCH <br>
+                                    In 2018, Lien Centre published a report <a style="color: blue;" href="https://lcsi.smu.edu.sg/research/understanding-food-insecurity-Singapore">
+                                        “Hunger in a Food Lover’s Paradise” </a> that provided a deeper
+                                    understanding of the food insecurity situation in Singapore.
+                                </p>
+
+                                <p align="justify">Through interviews with food support organisations and
+                                    households, this study provides insights on questions such as:
+                                </p>
+
+                                <p align="justify">Who among Kenyans is experiencing food insecurity <br>
+                                    How are the existing food support systems meeting these needs <br>
+                                    What are the gaps in service provision <br>
+                                    The report also makes recommendations on how these gaps might be filled
+                                    for a smoother and targeted food support distribution system. <br>
+                                    In 2019, PEAL-Kenya decided to probe deeper into the topic of food
+                                    insecurity.
+                                </p>
+
+                                <p align="justify">This nationally representative study concluded that about
+                                    70% of Kenyans households experienced food insecurity at
+                                    least once in the last 12 months. Being food insecure can also be
+                                    associated to having negative effects on a person’s physical and mental
+                                    health.
+                                </p>
+
+                                <p align="justify">Read more on these issues in the report here.
+                                </p>
+
+                                <p align="justify">Take Action today to end food insecurity by feeding a
+                                    household in need!
+                                </p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                            </div>
                         </div>
-                        <div class="modal-body">
-                         <!-- <h4>Blog</h4> -->
-                         <p align="justify">Food Insecurity is the state of being unable to afford
-                            sufficient quantity of affordable or nutritious food.
-                        </p>
-
-                        <p align="justify">#HIDDENPOVERTY <br>
-                            “Food is a basic human right. In a 3rd world country like Kenya no one
-                            should be deprived of the ability to feed themselves.” Pondi Collins
-                            Co-Founder of Pomilly East African Limited (PEAL)
-                        </p>
-
-                        <p align="justify">With no poverty line and minimum wage in Kenya it can be
-                            challenging to measure and identify people who struggle to make ends
-                            meet and require the most basic needs like food and shelter.
-
-                        </p>
-
-                        <p align="justify">
-                            FOOD INSECURITY RESEARCH <br>
-                            In 2018, Lien Centre published a report <a style="color: blue;"
-                                href="https://lcsi.smu.edu.sg/research/understanding-food-insecurity-Singapore">
-                                “Hunger in a Food Lover’s Paradise” </a> that provided a deeper
-                            understanding of the food insecurity situation in Singapore.
-                        </p>
-
-                        <p align="justify">Through interviews with food support organisations and
-                            households, this study provides insights on questions such as:
-                        </p>
-
-                        <p align="justify">Who among Kenyans is experiencing food insecurity <br>
-                            How are the existing food support systems meeting these needs <br>
-                            What are the gaps in service provision <br>
-                            The report also makes recommendations on how these gaps might be filled
-                            for a smoother and targeted food support distribution system. <br>
-                            In 2019, PEAL-Kenya decided to probe deeper into the topic of food
-                            insecurity.
-                        </p>
-
-                        <p align="justify">This nationally representative study concluded that about
-                            70% of Kenyans households experienced food insecurity at
-                            least once in the last 12 months. Being food insecure can also be
-                            associated to having negative effects on a person’s physical and mental
-                            health.
-                        </p>
-
-                        <p align="justify">Read more on these issues in the report here.
-                        </p>
-
-                        <p align="justify">Take Action today to end food insecurity by feeding a
-                            household in need!
-                        </p>
-                        </div>
-                        <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
-                        </div>
-                    </div>
                     </div>
                 </div>
                 <a href="#" data-toggle="modal" data-target="#exampleModalCenter1">
@@ -272,7 +110,7 @@
                             <img src="assets/img/services/44.jpg">
                             <h4>FOOD SECURITY</h4>
                             <p>In Kenya it’s common to find a grocery store, convenience store, or even a farmers’ market in your area.
-                                How often have you visited,  ...... </p>
+                                How often have you visited, ...... </p>
                             <a href="#" class="blue-button">Read More</a>
                         </div>
                     </div>
@@ -283,258 +121,98 @@
                 <!-- Modal -->
                 <div class="modal fade" id="exampleModalCenter1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                     <div class="modal-dialog modal-dialog-centered" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLongTitle">FOOD INSECURITY</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                        </div>
-                        <div class="modal-body">
-                            <p align="justify">
-                                <span style="font-weight: 600;">What is Food Security?</span> <br>
-                                In Kenya it’s common to find a grocery store, convenience store, or even a farmers’ market in your area.
-                                How often have you visited, pushed a cart around, and seen the variety of available food on the shelves?
-                                Maybe you’ve selected the best fruits and vegetables from the stacks or picked your favourite meat and
-                                dairy products from the refrigerated displays. But have you ever stopped to think about how it got there? 
-                                                    dairy products from the refrigerated displays. But have you ever stopped to think about how it got there? 
-                                dairy products from the refrigerated displays. But have you ever stopped to think about how it got there? 
-                            </p>
-                            <p align="justify">
-                                Food goes through a cycle from production to waste management, and every step along the way we must be 
-                                                    Food goes through a cycle from production to waste management, and every step along the way we must be 
-                                Food goes through a cycle from production to waste management, and every step along the way we must be 
-                                thinking of ways to ensure that food is available, accessible, affordable, nutritious, and stable for 
-                                                    thinking of ways to ensure that food is available, accessible, affordable, nutritious, and stable for 
-                                thinking of ways to ensure that food is available, accessible, affordable, nutritious, and stable for 
-                                all people. When these five basic elements are not met, food insecurity can occur. In Kenya,3 in ten 
-                                                    all people. When these five basic elements are not met, food insecurity can occur. In Kenya,3 in ten 
-                                all people. When these five basic elements are not met, food insecurity can occur. In Kenya,3 in ten 
-                                households and one in six children were food insecure between 2017 and 2018. Globally, the situation is 
-                                                    households and one in six children were food insecure between 2017 and 2018. Globally, the situation is 
-                                households and one in six children were food insecure between 2017 and 2018. Globally, the situation is 
-                                even more critical, with nearly 690 million people who are hungry and 750 million who are exposed to severe 
-                                                    even more critical, with nearly 690 million people who are hungry and 750 million who are exposed to severe 
-                                even more critical, with nearly 690 million people who are hungry and 750 million who are exposed to severe 
-                                levels of food insecurity. Achieving the five elements of food security, in all stages of the food cycle, is
-                                 vital to the goal of eliminating hunger and malnutrition worldwide. 
-                                                     vital to the goal of eliminating hunger and malnutrition worldwide. 
-                                 vital to the goal of eliminating hunger and malnutrition worldwide. 
-                            </p>
-                            <p align="justify">
-                                <span style="font-weight: 600;">Production</span> <br>
-                                Most people do not grow or raise their own food, which means they rely on farmers to produce the food they find on 
-                                                    Most people do not grow or raise their own food, which means they rely on farmers to produce the food they find on 
-                                Most people do not grow or raise their own food, which means they rely on farmers to produce the food they find on 
-                                their retail shelves. With the high demand of a growing population, the development of crops that are more resilient
-                                 to weather, disease, and pests are important to keeping food available to the population. New innovations, such as
-                                  temperature-controlled grain silos, global positioning systems, and drip irrigation, help preserve environmental 
-                                                      temperature-controlled grain silos, global positioning systems, and drip irrigation, help preserve environmental 
-                                  temperature-controlled grain silos, global positioning systems, and drip irrigation, help preserve environmental 
-                                  resources like water and land. They also reserve food stores for longer periods of time. The developments of more
-                                   accurate farming techniques keep food available and sustainable, allowing an increase in crop growth and a decrease
-                                    in land, water, and nutrient usage. 
-                            </p>
-                            <p align="justify">
-                                <span style="font-weight: 600;">Manufacturing</span> <br>
-                                Food needs to be processed and packaged for transportation to retailers. This step of the food cycle has the highest level of waste in the developed world at 43 per cent.  Evolving to reduce this percentage while keeping food from degradation during the process is an ongoing challenge. This requires new, more efficient processing technologies and the recovery of food by-products . The use of recycled, edible, or biodegradable packaging also helps to protect the environment and create a more sustainable food-processing system. 
-                                                    Food needs to be processed and packaged for transportation to retailers. This step of the food cycle has the highest level of waste in the developed world at 43 per cent.  Evolving to reduce this percentage while keeping food from degradation during the process is an ongoing challenge. This requires new, more efficient processing technologies and the recovery of food by-products . The use of recycled, edible, or biodegradable packaging also helps to protect the environment and create a more sustainable food-processing system. 
-                                Food needs to be processed and packaged for transportation to retailers. This step of the food cycle has the highest level of waste in the developed world at 43 per cent.  Evolving to reduce this percentage while keeping food from degradation during the process is an ongoing challenge. This requires new, more efficient processing technologies and the recovery of food by-products . The use of recycled, edible, or biodegradable packaging also helps to protect the environment and create a more sustainable food-processing system. 
-                            </p>
-                            <p align="justify">
-                                <span style="font-weight: 600;">Distributing</span> <br>
-                                Transportation ensures that food makes it from farms and manufacturers to retailers, such as grocery stores. Shortening the distance food needs to travel by supporting local production reduces emissions and creates a more sustainable system. However, to ensure the availability of food in all circumstances, it is essential to have transportation plans in place for instances when local food production faces challenges. Access to produce from foreign climates also provides a greater variety of nutritious and culturally diverse food.
-                             </p>
-                             <p align="justify">
-                                <span style="font-weight: 600;">Retail</span> <br>
-                                Supermarkets, convenience stores, independent grocers, and farmers’ markets are all examples of retailers that sell food. People rely on these businesses to provide them access to the food they need, and having diverse, affordable options within reach is a vital aspect of food security. Sustainable practices can also be implemented at a retail level, by reducing amounts of plastic and food waste. Encouraging the use of reusable grocery bags, donating near-expired products, and even composting at a store level can help achieve this.
-                            </p>
-                            <p align="justify">
-                                <span style="font-weight: 600;">Consumption</span> <br>
-                                Food is a requirement of life, but the type of food consumed matters. Proper nourishment means having strong bodies and sharp minds. Nutrition education and access to healthy choices is vital to supplying us with the daily needs necessary to support a healthy lifestyle. Religious, medical, and ethical factors are also important. Enough options need to be available for those with dietary restrictions. Likewise, for quality of life, people should have choice and access to food they enjoy. What’s common to eat in one country
-                                might not be common in another.For instance, insects are not as widely as consumed in Kenya as they are in other countries.
-                            </p>
-                            <p align="justify">
-                                <span style="font-weight: 600;">Waste Management</span> <br>
-                                Food that isn't consumed is disposed off through waste management  systems.Compost is one way that organic waste can be  managed in a suitable way, using old food to fertilize new production, however food security aims to limit foodwastes in areas of abundance surpluses to areas where Hunger is still a concern.
-                                <!-- Download pdf  -->
-                                <a style="color: green; font-weight: 600;" class="" href="What is Food security.pdf" download>
-                                    Download pdf
-                                  </a>
-                               </p>
-                        </div>
-                        <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
-                        </div>
-                    </div>
-                    </div>
-                </div>
-           </div>
-
-    </div>
-</div>
-
-      
-
-    </main>
-    <footer>
-        <!--? Footer Start-->
-        <div class="footer-area footer-bg">
-            <div class="container">
-                <div class="footer-top footer-padding">
-                    <!-- Footer Menu -->
-                    <div class="row d-flex justify-content-between">
-                        <div class="col-sm-3">
-                            <div class="single-footer-caption mb-50">
-                                <div class="footer-tittle">
-                                    <h4>Company</h4>
-                                    <ul>
-                                        <li><a href="aboutus.php" style="color:white">About Us</a></li>
-                                        <li><a href="missionandvision.php" style="color:white">Mission & Vision</a>
-                                        </li>
-                                        <li><a href="corevalues.php" style="color:white">Core Values</a></li>
-                                        <li>
-                                            <a style="color: white;" href="http://www.pomilly.com/webmail" 
-                                                        data-animation="fadeInLeft">Staff Email</a>
-                                        </li>
-                                    </ul>
-                                </div>
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLongTitle">FOOD INSECURITY</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
                             </div>
-                        </div>
-                        <div class="col-sm-4">
-                            <div class="single-footer-caption mb-50">
-                                <div class="footer-tittle">
-                                    <h4>Services</h4>
-                                    <ul>
-                                        <li><a href="sustainableagriculturalconsultancy.php"
-                                                style="color:white">SUSTAINABLE AGRICULTURAL CONSULTANCY</a></li>
-                                        <li><a href="foodwasterecyclingindustry.php" style="color:white">FOOD WASTE
-                                                RECYCLING INDUSTRY</a></li>
-                                        <li><a href="foodbankingfoodsecurity.php" style="color:white">FOOD BANKING &
-                                                FOOD SECURITY CONSULTANCY</a></li>
-                                        <li><a href="eosphconsultancy.php" style="color:white">ENVIRONMENTAL,
-                                                OCCUPATIONAL SAFETY & PUBLIC HEALTH CONSULTANCY</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-3">
-                            <div class="single-footer-caption mb-50">
-                                <div class="footer-tittle">
-                                    <h4>Quick Links</h4>
-                                    <ul>
-                                        <li><a href="contactus.php" style="color:white">Contact Us</a></li>
-                                        <li><a href="team.php" style="color:white">Our Team</a></li>
-                                        <li><a href="ourgoals.php" style="color:white">Our Goals</a></li>
-
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-2">
-                            <div class="single-footer-caption mb-50">
-                                <div class="footer-tittle">
-                                    <h4>Let’s Get Social</h4>
-                                    <!-- <a href="http://www.pomilly.com/webmail" class="genric-btn primary e-large">Staff
-                                                Email
-                                            </a> -->
-                                    <div class="footer-social mt-3">
-                                        <a href="https://www.facebook.com/pomilly.co.ke"><i class="fab fa-facebook-f"></i></a>
-                                        <a href="https://twitter.com/EastPomilly"><i class="fab fa-twitter"></i></a>
-                                        <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
-                                        <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
-                                        <a style="background: rgb(136, 136, 50);" href="www.linkedin.com/in/pomilly-east-african-company"><i class="fab fa-linkedin"></i></a>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- footer Heading -->
-
-
-                </div>
-                <!-- Footer Bottom -->
-                <div class="footer-bottom">
-                    <div class="row d-flex align-items-center">
-                        <div class="col-lg-12">
-                            <div class="footer-copy-right text-center">
-                                <p>
-                                    <!-- Copyright &copy;<script>
-                                            document.write(new Date().getFullYear());
-                                        </script> All rights reserved -->
-                                        Copyright © Pomilly East African Limited
+                            <div class="modal-body">
+                                <p align="justify">
+                                    <span style="font-weight: 600;">What is Food Security?</span> <br>
+                                    In Kenya it’s common to find a grocery store, convenience store, or even a farmers’ market in your area.
+                                    How often have you visited, pushed a cart around, and seen the variety of available food on the shelves?
+                                    Maybe you’ve selected the best fruits and vegetables from the stacks or picked your favourite meat and
+                                    dairy products from the refrigerated displays. But have you ever stopped to think about how it got there?
+                                    dairy products from the refrigerated displays. But have you ever stopped to think about how it got there?
+                                    dairy products from the refrigerated displays. But have you ever stopped to think about how it got there?
+                                </p>
+                                <p align="justify">
+                                    Food goes through a cycle from production to waste management, and every step along the way we must be
+                                    Food goes through a cycle from production to waste management, and every step along the way we must be
+                                    Food goes through a cycle from production to waste management, and every step along the way we must be
+                                    thinking of ways to ensure that food is available, accessible, affordable, nutritious, and stable for
+                                    thinking of ways to ensure that food is available, accessible, affordable, nutritious, and stable for
+                                    thinking of ways to ensure that food is available, accessible, affordable, nutritious, and stable for
+                                    all people. When these five basic elements are not met, food insecurity can occur. In Kenya,3 in ten
+                                    all people. When these five basic elements are not met, food insecurity can occur. In Kenya,3 in ten
+                                    all people. When these five basic elements are not met, food insecurity can occur. In Kenya,3 in ten
+                                    households and one in six children were food insecure between 2017 and 2018. Globally, the situation is
+                                    households and one in six children were food insecure between 2017 and 2018. Globally, the situation is
+                                    households and one in six children were food insecure between 2017 and 2018. Globally, the situation is
+                                    even more critical, with nearly 690 million people who are hungry and 750 million who are exposed to severe
+                                    even more critical, with nearly 690 million people who are hungry and 750 million who are exposed to severe
+                                    even more critical, with nearly 690 million people who are hungry and 750 million who are exposed to severe
+                                    levels of food insecurity. Achieving the five elements of food security, in all stages of the food cycle, is
+                                    vital to the goal of eliminating hunger and malnutrition worldwide.
+                                    vital to the goal of eliminating hunger and malnutrition worldwide.
+                                    vital to the goal of eliminating hunger and malnutrition worldwide.
+                                </p>
+                                <p align="justify">
+                                    <span style="font-weight: 600;">Production</span> <br>
+                                    Most people do not grow or raise their own food, which means they rely on farmers to produce the food they find on
+                                    Most people do not grow or raise their own food, which means they rely on farmers to produce the food they find on
+                                    Most people do not grow or raise their own food, which means they rely on farmers to produce the food they find on
+                                    their retail shelves. With the high demand of a growing population, the development of crops that are more resilient
+                                    to weather, disease, and pests are important to keeping food available to the population. New innovations, such as
+                                    temperature-controlled grain silos, global positioning systems, and drip irrigation, help preserve environmental
+                                    temperature-controlled grain silos, global positioning systems, and drip irrigation, help preserve environmental
+                                    temperature-controlled grain silos, global positioning systems, and drip irrigation, help preserve environmental
+                                    resources like water and land. They also reserve food stores for longer periods of time. The developments of more
+                                    accurate farming techniques keep food available and sustainable, allowing an increase in crop growth and a decrease
+                                    in land, water, and nutrient usage.
+                                </p>
+                                <p align="justify">
+                                    <span style="font-weight: 600;">Manufacturing</span> <br>
+                                    Food needs to be processed and packaged for transportation to retailers. This step of the food cycle has the highest level of waste in the developed world at 43 per cent. Evolving to reduce this percentage while keeping food from degradation during the process is an ongoing challenge. This requires new, more efficient processing technologies and the recovery of food by-products . The use of recycled, edible, or biodegradable packaging also helps to protect the environment and create a more sustainable food-processing system.
+                                    Food needs to be processed and packaged for transportation to retailers. This step of the food cycle has the highest level of waste in the developed world at 43 per cent. Evolving to reduce this percentage while keeping food from degradation during the process is an ongoing challenge. This requires new, more efficient processing technologies and the recovery of food by-products . The use of recycled, edible, or biodegradable packaging also helps to protect the environment and create a more sustainable food-processing system.
+                                    Food needs to be processed and packaged for transportation to retailers. This step of the food cycle has the highest level of waste in the developed world at 43 per cent. Evolving to reduce this percentage while keeping food from degradation during the process is an ongoing challenge. This requires new, more efficient processing technologies and the recovery of food by-products . The use of recycled, edible, or biodegradable packaging also helps to protect the environment and create a more sustainable food-processing system.
+                                </p>
+                                <p align="justify">
+                                    <span style="font-weight: 600;">Distributing</span> <br>
+                                    Transportation ensures that food makes it from farms and manufacturers to retailers, such as grocery stores. Shortening the distance food needs to travel by supporting local production reduces emissions and creates a more sustainable system. However, to ensure the availability of food in all circumstances, it is essential to have transportation plans in place for instances when local food production faces challenges. Access to produce from foreign climates also provides a greater variety of nutritious and culturally diverse food.
+                                </p>
+                                <p align="justify">
+                                    <span style="font-weight: 600;">Retail</span> <br>
+                                    Supermarkets, convenience stores, independent grocers, and farmers’ markets are all examples of retailers that sell food. People rely on these businesses to provide them access to the food they need, and having diverse, affordable options within reach is a vital aspect of food security. Sustainable practices can also be implemented at a retail level, by reducing amounts of plastic and food waste. Encouraging the use of reusable grocery bags, donating near-expired products, and even composting at a store level can help achieve this.
+                                </p>
+                                <p align="justify">
+                                    <span style="font-weight: 600;">Consumption</span> <br>
+                                    Food is a requirement of life, but the type of food consumed matters. Proper nourishment means having strong bodies and sharp minds. Nutrition education and access to healthy choices is vital to supplying us with the daily needs necessary to support a healthy lifestyle. Religious, medical, and ethical factors are also important. Enough options need to be available for those with dietary restrictions. Likewise, for quality of life, people should have choice and access to food they enjoy. What’s common to eat in one country
+                                    might not be common in another.For instance, insects are not as widely as consumed in Kenya as they are in other countries.
+                                </p>
+                                <p align="justify">
+                                    <span style="font-weight: 600;">Waste Management</span> <br>
+                                    Food that isn't consumed is disposed off through waste management systems.Compost is one way that organic waste can be managed in a suitable way, using old food to fertilize new production, however food security aims to limit foodwastes in areas of abundance surpluses to areas where Hunger is still a concern.
+                                    <!-- Download pdf  -->
+                                    <a style="color: green; font-weight: 600;" class="" href="What is Food security.pdf" download>
+                                        Download pdf
+                                    </a>
                                 </p>
                             </div>
-
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div> <!-- Footer End-->
-    </footer>
-    <!-- Scroll Up -->
-    <div id="back-top">
-        <a title="Go to Top" href="#"> <i class="fas fa-level-up-alt"></i></a>
+
+        </div>
     </div>
-     <!-- GetButton.io widget -->
-     <script type="text/javascript">
-        (function () {
-        var options = {
-        whatsapp: "+254 745 462781", // WhatsApp number
-        call_to_action: "Message us", // Call to action
-        position: "left", // Position may be 'right' or 'left'
-        pre_filled_message: "Hi there 👋 Welcome to Pomilly East Africa Limited", // WhatsApp pre-filled message
-        };
-        var proto = document.location.protocol, host = "getbutton.io", url = proto + "//static." + host;
-        var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
-        s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
-        var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
-        })();
-        </script>
-<!-- /GetButton.io widget -->
-    <!-- JS here -->
-    <!-- Go to www.addthis.com/dashboard to customize your tools -->
-    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5ff34151605d4a39"></script>
-    <script src="assets/js/vendor/modernizr-3.5.0.min.js"></script>
-    <!-- Jquery, Popper, Bootstrap -->
-    <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
-    <script src="assets/js/popper.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-    <!-- Jquery Mobile Menu -->
-    <script src="assets/js/jquery.slicknav.min.js"></script>
 
-    <!-- Jquery Slick , Owl-Carousel Plugins -->
-    <script src="assets/js/owl.carousel.min.js"></script>
-    <script src="assets/js/slick.min.js"></script>
-    <!-- One Page, Animated-HeadLin -->
-    <script src="assets/js/wow.min.js"></script>
-    <script src="assets/js/animated.headline.js"></script>
-    <script src="assets/js/jquery.magnific-popup.js"></script>
 
-    <!-- Date Picker -->
-    <script src="assets/js/gijgo.min.js"></script>
-    <!-- Nice-select, sticky -->
-    <script src="assets/js/jquery.nice-select.min.js"></script>
-    <script src="assets/js/jquery.sticky.js"></script>
-
-    <!-- counter , waypoint -->
-    <script src="assets/js/jquery.counterup.min.js"></script>
-    <script src="assets/js/waypoints.min.js"></script>
-
-    <!-- contact js -->
-    <script src="assets/js/contact.js"></script>
-    <script src="assets/js/jquery.form.js"></script>
-    <script src="assets/js/jquery.validate.min.js"></script>
-    <script src="assets/js/mail-script.js"></script>
-    <script src="assets/js/jquery.ajaxchimp.min.js"></script>
-
-    <!-- Jquery Plugins, main Jquery -->
-    <script src="assets/js/plugins.js"></script>
-    <script src="assets/js/main.js"></script>
-    
-
-</body>
-
-</html>
+</main>
+<?php include "includes/footer.php"; ?>
