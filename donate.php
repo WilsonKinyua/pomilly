@@ -1,21 +1,20 @@
 <!doctype html>
 <html class="no-js" lang="zxx">
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
-<!-- 
+  <!-- 
     ========================================================================
         Developed and created by Developer Wilson
         Reach me through email: wilsonkinyuam@gmail.com for ant question or something 
         Phone Number: +254717255460 
     =======================================================================================
      -->
-
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>ENVIRONMENTAL, OCCUPATIONAL SAFETY & PUBLIC HEALTH CONSULTANCY | Pomilly East African Limited</title>
     <meta name="description" content="Developed by Developer Wilson">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="manifest" href="site.html">
+    <link rel="manifest" href="site.php">
     <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
 
     <!-- CSS here -->
@@ -55,12 +54,9 @@
                     <div class="header-left-social">
                         <ul class="header-social">
                             <li><a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a></li>
-                            <li><a href="https://www.facebook.com/" target="_blank"><i
-                                        class="fab fa-facebook-f"></i></a></li>
-                            <li><a href="https://www.linkedin.com/" target="_blank"><i
-                                        class="fab fa-linkedin-in"></i></a></li>
-                            <li> <a href="https://instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
-                            </li>
+                            <li><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+                            <li> <a href="https://instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a></li>
                         </ul>
                     </div>
                     <div class="container">
@@ -84,59 +80,59 @@
                 <div class="header-bottom header-sticky">
                     <!-- Logo -->
                     <div class="logo d-none d-lg-block">
-                        <a href="index-2.html"><img src="assets/img/PomillyLogo2.jpg" width="180px" height="98px"
+                        <a href="index-2.php"><img src="assets/img/PomillyLogo2.jpg" width="180px" height="98px"
                                 alt=""></a>
                     </div>
                     <div class="container">
                         <div class="menu-wrapper">
                             <!-- Logo -->
                             <div class="logo logo2 d-block d-lg-none">
-                                <a href="index-2.html"><img src="assets/img/PomillyLogo2.jpg" width="180px"
+                                <a href="index-2.php"><img src="assets/img/PomillyLogo2.jpg" width="180px"
                                         height="98px" alt=""></a>
                             </div>
                             <!-- Main-menu -->
                             <div class="main-menu d-none d-lg-block">
                                 <nav>
                                     <ul id="navigation">
-                                        <li><a href="index-2.html">HOME</a></li>
+                                        <li><a href="index-2.php">HOME</a></li>
 
                                         <li><a href="#">COMPANY</a>
                                             <ul class="submenu">
-                                                <li><a href="aboutus.html">About Us</a></li>
-                                                <li><a href="missionandvision.html">Mission & Vision</a></li>
-                                                <li><a href="corevalues.html">Core Values</a></li>
-                                                <li><a href="motto.html">Motto</a></li>
-                                                <li><a href="ourhistory.html">Our History</a></li>
-                                                <li><a href="whatisfoodrecycling.html">What is food Recycling</a></li>
-                                                <li><a href="whatwedo.html">What We do</a></li>
-                                                <li><a href="depositfood.html">Deposit Food</a></li>
-                                                <li><a href="volunteer.html">Volunteer</a></li>
-                                                <li><a href="donate.html">Donate</a></li>
-                                                <li><a href="whatsnew.html">What's New</a></li>
-                                                <li><a href="careers.html">Careers</a></li>
+                                                <li><a href="aboutus.php">About Us</a></li>
+                                                <li><a href="missionandvision.php">Mission & Vision</a></li>
+                                                <li><a href="corevalues.php">Core Values</a></li>
+                                                <li><a href="motto.php">Motto</a></li>
+                                                <li><a href="ourhistory.php">Our History</a></li>
+                                                <li><a href="whatisfoodrecycling.php">What is food Recycling</a></li>
+                                                <li><a href="whatwedo.php">What We do</a></li>
+                                                <li><a href="depositfood.php">Deposit Food</a></li>
+                                                <li><a href="volunteer.php">Volunteer</a></li>
+                                                <li><a href="donate.php">Donate</a></li>
+                                                <li><a href="whatsnew.php">What's New</a></li>
+                                                <li><a href="careers.php">Careers</a></li>
                                             </ul>
                                         </li>
 
-                                        <li><a href="team.html">TEAM</a></li>
+                                        <li><a href="team.php">TEAM</a></li>
 
-                                        <li><a href="ourgoals.html">OUR GOALS</a></li>
+                                        <li><a href="ourgoals.php">OUR GOALS</a></li>
 
                                         <li><a href="#">SERVICES</a>
                                             <ul class="submenu">
-                                                <li><a href="sustainableagriculturalconsultancy.html">SUSTAINABLE
+                                                <li><a href="sustainableagriculturalconsultancy.php">SUSTAINABLE
                                                         AGRICULTURAL CONSULTANCY</a></li>
-                                                <li><a href="foodwasterecyclingindustry.html">FOOD WASTE RECYCLING
+                                                <li><a href="foodwasterecyclingindustry.php">FOOD WASTE RECYCLING
                                                         INDUSTRY</a></li>
-                                                <li><a href="foodbankingfoodsecurity.html">FOOD BANKING & FOOD SECURITY
+                                                <li><a href="foodbankingfoodsecurity.php">FOOD BANKING & FOOD SECURITY
                                                         CONSULTANCY</a></li>
-                                                <li><a href="eosphconsultancy.html">ENVIRONMENTAL, OCCUPATIONAL SAFETY &
+                                                <li><a href="eosphconsultancy.php">ENVIRONMENTAL, OCCUPATIONAL SAFETY &
                                                         PUBLIC HEALTH CONSULTANCY</a></li>
 
                                             </ul>
                                         </li>
-                                        <li><a href="blog.html">BLOG</a></li>
+                                        <li><a href="blog.php">BLOG</a></li>
 
-                                        <li><a href="contactus.html">CONTACT US</a></li>
+                                        <li><a href="contactus.php">CONTACT US</a></li>
                                     </ul>
                                 </nav>
                             </div>
@@ -167,7 +163,7 @@
                     <div class="row">
                         <div class="col-xl-12">
                             <div class="hero-cap hero-cap2 text-center">
-                                <h2>Volunteer</h2>
+                                <h2>Donate</h2>
                             </div>
                         </div>
                     </div>
@@ -181,103 +177,36 @@
                 <div class="row justify-content-center">
                     <div class="col-lg-8">
                         <div class="about-details-cap mb-50">
-                            <h4>Volunteer</h4>
+                            <!-- <h4>Donate</h4> -->
                             <p align="justify">
                             </p>
-                            <a style="color: yellow;" class="btn" data-target="#modal-3" data-toggle="modal" href="#">1.
-                                Time based</a>
+                            <a class="btn" data-target="#modal-3" data-toggle="modal" href="#">1. Donate</a>
                             <div class="modal fade" id="modal-3" tabindex="-1" role="modal"
                                 aria-labelledby="modal-label-3" aria-hidden="true">
                                 <div class="modal-dialog modal-lg">
                                     <div class="modal-content">
                                         <div class="modal-header">
-                                            <h4 id="modal-label-3" class="modal-title">Time based</h4>
+                                            <!-- <h4  id="modal-label-3" class="modal-title">Food drive</h4> -->
                                             <button aria-hidden="true" data-dismiss="modal" class="close"
                                                 type="button">×</button>
                                         </div>
                                         <div class="modal-body">
                                             <div class="row mb20">
                                                 <div class="col-md-12">
-                                                    <h4>Warehouse Volunteering</h4>
+                                                    <h4>Donate $</h4>
                                                     <p>
-                                                        The PEAL-Kenya receives incoming food donations on a daily basis
-                                                        and we need your help to sort, take inventory and pack food
-                                                        donations!
-                                                        <br>
-                                                        We have two volunteering slots from Monday to Saturday: <br>
-                                                        Morning (10am to 1pm) <br>
-                                                        Afternoon (2pm to 5pm) <br>
-                                                        Warehouse location: Mombasa, Kisumu and Nairobi (may include
-                                                        future function of online slot booking system) <br>
-
-                                                    </p>
-                                                    <h6 style="font-weight: 600;">Fresh Food Truck</h6>
-                                                    <p>
-                                                        Almost half of all fruits and vegetables produced globally are
-                                                        wasted. Wastage levels are high at the
-                                                        supplier and retail level due to cosmetic filtering, which is a
-                                                        process where sellers discard items based on their appearance.
+                                                        Every $2 provides a meal to a beneficiary in need.
                                                     </p>
                                                     <p>
-                                                        The Fresh Food Truck (FFT) Activity aims to reduce fruits and
-                                                        vegetable wastage by salvaging slightly
-                                                        blemished or “ugly”, but still good to consume foods at Pasir
-                                                        Panjang Wholesale Centre, and distributing to our beneficiaries.
-                                                    </p>
+                                                        We need to keep our operations going to the beneficiaries in need! 2 in 10 Kenyans face food insecurity,
+                                                         and are unable to afford their basic three meals at any point in their lives. Support us and end food insecurity by donating here.                                                    </p>
                                                     <p>
-                                                        The FFT activity will be held 3 times a month from 10am to 1pm.
+                                                        Already have a fundraising idea? In need of more information on how you can contribute or partner with us? Contact <span style="color: blue;">info@pomilly.com</span>
                                                     </p>
-                                                    <p>
-                                                        As a volunteer, you will play a key role in:
-                                                        <ul style="font-weight: 700;">
-                                                            <li>
-                                                                - Collecting fruits and vegetables from the different
-                                                                stalls.
-                                                            </li>
-                                                            <li>
-                                                                - Conducting visual inspection on the collected goods.
-                                                            </li>
-                                                            <li>
-                                                                - Distributing the fruits and vegetables at a
-                                                                beneficiary location.
-                                                            </li>
-                                                        </ul>
-                                                    </p>
-                                                    <p>
-                                                        To join, you will need to: <br>
-                                                        – Gather a group of up to 10 volunteers that are 13 years old
-                                                        and above <br>
-                                                        – Arrange transport for the volunteers from the collection site
-                                                        to the distribution site.
-                                                    </p>
+                                                  
                                                 </div>
                                             </div>
-                                            <div class="row">
-                                                <div class="col-md-6 xs-box">
-                                                    <div class="box-services-a">
-                                                        <p>
-                                                            Due to the current Covid-19 situation and in line with safe
-                                                            distancing measures, we have limited
-                                                            the number of volunteers per session to 10 pax. Please note
-                                                            that all volunteers are required to wear a mask
-                                                            throughout their session and will have to do Safe Entry
-                                                            check-in.
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-6">
-                                                    <div class="box-services-a">
-                                                        <p>
-                                                            If you are interested to gather your team for a CSR
-                                                            activity,
-                                                            VIA project, or a great bonding session, drop us an email at
-                                                            <span style="color: blue;">volunteer@pomilly.com</span> to book a volunteering slot with us
-                                                            today!
-
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                            </div>
+                                           
                                         </div>
                                         <div class="modal-footer">
                                             <button data-dismiss="modal" class="btn btn-b" type="button">Close</button>
@@ -289,14 +218,13 @@
 
 
 
-                            <a class="btn" data-target="#modal-2" style="color: yellow;" data-toggle="modal" href="#">2.
-                                Skill based </a>
+                            <a class="btn" data-target="#modal-2"  data-toggle="modal" href="#">2. Joy In Every Bundle  </a>
                             <div class="modal fade" id="modal-2" tabindex="-1" role="modal"
                                 aria-labelledby="modal-label-3" aria-hidden="true">
                                 <div class="modal-dialog modal-lg">
                                     <div class="modal-content">
                                         <div class="modal-header">
-                                            <h4 id="modal-label-3" class="modal-title">Skill based </h4>
+                                            <h4 id="modal-label-3" class="modal-title">2. Joy In Every Bundle  </h4>
                                             <button aria-hidden="true" data-dismiss="modal" class="close"
                                                 type="button">×</button>
                                         </div>
@@ -304,56 +232,35 @@
                                             <div class="row mb20">
                                                 <div class="col-md-12">
                                                     <p>
-
-                                                        The PEAL-Kenya operates through a lean team of passionate
-                                                        individuals in our mission to end food insecurity in all forms!
-
+                                                        Want to donate to those in need but do not know how to go about it? Support PEAL Kenya's Bundle of 
+                                                        joy Campaign where we bring Joy In Every Bundle! Hassle-free and easy, we stretch every dollar donated 
+                                                        to cover the cost of the food items, packaging and logistics costs! As the food items are purchased by
+                                                         The PEAL-Kenya we work with various food suppliers to ensure that every bundle offered, is value for money.
+                                                          Engage your team by raising funds to pledge, pack and do a door to door distribution to our beneficiaries at 
+                                                          one of our beneficiary centre’s location.
                                                     </p>
                                                     <p>
-                                                        Volunteering with us allows you to provide a meaningful
-                                                        contribution, gain new skills or put old onesto good use and
-                                                        meet new people as we help our community!
-                                                    </p>
-                                                    <h6 style="font-weight: 600;">
-                                                        Volunteer Roles
-                                                    </h6>
-                                                    <h6 style="font-weight: 600;">
-                                                        Delivery Driver/Assistant
-                                                    </h6>
-                                                    <p>
-                                                        – Daily volunteers needed to assist with both collection and
-                                                        deliveries of food donations
-                                                        <br>
-                                                        – 1 shift per day : 11am to 5pm
+                                                        <span style="font-weight: 600;">
+                                                        STEP- BY -STEP GUIDE <br>
 
-                                                    </p>
-                                                    <h6 style="font-weight: 600;">
-                                                        Food Bank Box Masters
-                                                    </h6>
-                                                    <p>
-                                                        – If you have a personal vehicle and are available during
-                                                        weekends <br>
+                                                        Identify a date and timeslot <br>
 
-                                                        – Assist with weekly/bi-weekly collection from our public Food
-                                                        Bank boxes and delivering the donations to our warehouse.
+                                                        Send an email <span style="color: blue;">info@pomilly.com</span> to the Foodbankers. <br>
 
-                                                    </p>
-                                                    <h6 style="font-weight: 600;">
-                                                        Ad-hoc volunteering
-                                                    </h6>
-                                                    <p>
-                                                        – Advocacy volunteers at events/roadshows
-                                                        <br>
-                                                        – Admin or Warehouse volunteers
-                                                        <br>
-                                                        – Marketing/Social Media volunteer
-                                                        <br>
-                                                        <!-- Click here to sign up as our volunteers today! -->
+                                                        Get linked up with the beneficiary center <br>
 
+                                                        Participate in the activity! <br>
+
+                                                        Finalise the payment
+
+                                                        </span>
                                                     </p>
+                                                   
+                                                 
+                                                   
                                                 </div>
                                             </div>
-
+                                           
                                         </div>
                                         <div class="modal-footer">
                                             <button data-dismiss="modal" class="btn btn-b" type="button">Close</button>
@@ -364,14 +271,13 @@
                             </div>
 
 
-                            <a style="color: yellow;" class="btn" data-target="#modal-1" data-toggle="modal" href="#">3.
-                                Juniors club </a>
+                            <a  class="btn" data-target="#modal-1" data-toggle="modal" href="#">3. Feed the city</a>
                             <div class="modal fade" id="modal-1" tabindex="-1" role="modal"
                                 aria-labelledby="modal-label-3" aria-hidden="true">
                                 <div class="modal-dialog modal-lg">
                                     <div class="modal-content">
                                         <div class="modal-header">
-                                            <h4 id="modal-label-3" class="modal-title">Juniors club </h4>
+                                            <h4 id="modal-label-3" class="modal-title">3. Feed the city </h4>
                                             <button aria-hidden="true" data-dismiss="modal" class="close"
                                                 type="button">×</button>
                                         </div>
@@ -379,52 +285,15 @@
                                             <div class="row mb20">
                                                 <div class="col-md-12">
                                                     <p>
-                                                        The PEAL-Kenya is recruiting Junior Foodbankers aged 5 to 12 to
-                                                        encourage volunteerism from young!
-                                                        Ad-hoc volunteering opportunities and activities are held every
-                                                        quarter during the school holidays
-                                                        for children aged 5 to 12 years old.
-                                                    </p>
-                                                    <!-- <p>
-                                                        Click here to register your children/kid as a Junior Foodbanker now!
-                                                    </p> -->
-                                                    <h6 style="font-weight: 600;">
-                                                        Volunteer Roles
-                                                    </h6>
-                                                    <h6 style="font-weight: 600;">
-                                                        Warehouse Session
-                                                    </h6>
-                                                    <p>
-                                                        The kids will have a tour of Food Bank’s warehouse and assist in
-                                                        sorting, packing or taking inventory of the donations.
-                                                        Through this activity, the kids will get to learn more on
-                                                        identifying food categories, expiry labels and how our warehouse
-                                                        operates.
+                                                        We are building an application called Pomilly App,with food with Pomilly Kenya as its  charity choice.It is an online social enterprise that helps diners choose our partners restaurants, everytime you dine in our partners restaurants,you feed millions of people.
                                                     </p>
                                                     <p>
-                                                        Food Distribution through our Joy In Every Bundle programme
+                                                        It's a community engagement event to increase food  security in Kenya by giving those in need a hearty meal in the process.Gather your team to sponsor a beneficiary  group through interactive activities at our partners restaurants.   
                                                     </p>
-                                                    <p>
-                                                        The kids will assist in packing individual food bundles and
-                                                        distributing them to the individual beneficiaries at their
-                                                        homes.
-                                                        Through this activity, the kids will get to learn more about our
-                                                        beneficiary organisations and experience distributing food
-                                                        to those in need and their living conditions.
-                                                    </p>
-                                                    <h6 style="font-weight: 600;">
-                                                        Excursions / External Collaboration
-                                                    </h6>
-                                                    <p>
-                                                        The kids will get the chance to visit local farms and food
-                                                        production/wastage factories or participate in a Cooking class.
-                                                        Through these trips, the kids will have a better understanding
-                                                        on how food is being produced and increase in the appreciation
-                                                        of the foods that they consume.
-                                                    </p>
+                                                   
                                                 </div>
                                             </div>
-
+                                           
                                         </div>
                                         <div class="modal-footer">
                                             <button data-dismiss="modal" class="btn btn-b" type="button">Close</button>
@@ -456,10 +325,10 @@
                                 <div class="footer-tittle">
                                     <h4>Company</h4>
                                     <ul>
-                                        <li><a href="aboutus.html" style="color:white">About Us</a></li>
-                                        <li><a href="missionandvision.html" style="color:white">Mission & Vision</a>
+                                        <li><a href="aboutus.php" style="color:white">About Us</a></li>
+                                        <li><a href="missionandvision.php" style="color:white">Mission & Vision</a>
                                         </li>
-                                        <li><a href="corevalues.html" style="color:white">Core Values</a></li>
+                                        <li><a href="corevalues.php" style="color:white">Core Values</a></li>
 
                                     </ul>
                                 </div>
@@ -470,13 +339,13 @@
                                 <div class="footer-tittle">
                                     <h4>Services</h4>
                                     <ul>
-                                        <li><a href="sustainableagriculturalconsultancy.html"
+                                        <li><a href="sustainableagriculturalconsultancy.php"
                                                 style="color:white">SUSTAINABLE AGRICULTURAL CONSULTANCY</a></li>
-                                        <li><a href="foodwasterecyclingindustry.html" style="color:white">FOOD WASTE
+                                        <li><a href="foodwasterecyclingindustry.php" style="color:white">FOOD WASTE
                                                 RECYCLING INDUSTRY</a></li>
-                                        <li><a href="foodbankingfoodsecurity.html" style="color:white">FOOD BANKING &
+                                        <li><a href="foodbankingfoodsecurity.php" style="color:white">FOOD BANKING &
                                                 FOOD SECURITY CONSULTANCY</a></li>
-                                        <li><a href="eosphconsultancy.html" style="color:white">ENVIRONMENTAL,
+                                        <li><a href="eosphconsultancy.php" style="color:white">ENVIRONMENTAL,
                                                 OCCUPATIONAL SAFETY & PUBLIC HEALTH CONSULTANCY</a></li>
                                     </ul>
                                 </div>
@@ -487,9 +356,9 @@
                                 <div class="footer-tittle">
                                     <h4>Quick Links</h4>
                                     <ul>
-                                        <li><a href="contactus.html" style="color:white">Contact Us</a></li>
-                                        <li><a href="team.html" style="color:white">Our Team</a></li>
-                                        <li><a href="ourgoals.html" style="color:white">Our Goals</a></li>
+                                        <li><a href="contactus.php" style="color:white">Contact Us</a></li>
+                                        <li><a href="team.php" style="color:white">Our Team</a></li>
+                                        <li><a href="ourgoals.php" style="color:white">Our Goals</a></li>
 
                                     </ul>
                                 </div>
@@ -558,6 +427,7 @@
         })();
         </script>
     <!-- /GetButton.io widget -->
+
     <!-- JS here -->
 
     <script src="assets/js/vendor/modernizr-3.5.0.min.js"></script>

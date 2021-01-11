@@ -15,7 +15,7 @@
     <title>ENVIRONMENTAL, OCCUPATIONAL SAFETY & PUBLIC HEALTH CONSULTANCY | Pomilly East African Limited</title>
     <meta name="description" content="Developed by Developer Wilson">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="manifest" href="site.html">
+    <link rel="manifest" href="site.php">
     <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
 
     <!-- CSS here -->
@@ -84,59 +84,57 @@
                 <div class="header-bottom header-sticky">
                     <!-- Logo -->
                     <div class="logo d-none d-lg-block">
-                        <a href="index-2.html"><img src="assets/img/PomillyLogo2.jpg" width="180px" height="98px"
-                                alt=""></a>
+                        <a href="index-2.php"><img src="assets/img/PomillyLogo2.jpg" width="180px" height="98px" alt=""></a>
                     </div>
                     <div class="container">
                         <div class="menu-wrapper">
                             <!-- Logo -->
                             <div class="logo logo2 d-block d-lg-none">
-                                <a href="index-2.html"><img src="assets/img/PomillyLogo2.jpg" width="180px"
-                                        height="98px" alt=""></a>
+                                <a href="index-2.php"><img src="assets/img/PomillyLogo2.jpg" width="180px" height="98px" alt=""></a>
                             </div>
                             <!-- Main-menu -->
                             <div class="main-menu d-none d-lg-block">
                                 <nav>
                                     <ul id="navigation">
-                                        <li><a href="index-2.html">HOME</a></li>
+                                        <li><a href="index-2.php">HOME</a></li>
 
                                         <li><a href="#">COMPANY</a>
                                             <ul class="submenu">
-                                                <li><a href="aboutus.html">About Us</a></li>
-                                                <li><a href="missionandvision.html">Mission & Vision</a></li>
-                                                <li><a href="corevalues.html">Core Values</a></li>
-                                                <li><a href="motto.html">Motto</a></li>
-                                                <li><a href="ourhistory.html">Our History</a></li>
-                                                <li><a href="whatisfoodrecycling.html">What is food Recycling</a></li>
-                                                <li><a href="whatwedo.html">What We do</a></li>
-                                                <li><a href="depositfood.html">Deposit Food</a></li>
-                                                <li><a href="volunteer.html">Volunteer</a></li>
-                                                <li><a href="donate.html">Donate</a></li>
-                                                <li><a href="whatsnew.html">What's New</a></li>
-                                                <li><a href="careers.html">Careers</a></li>
+                                                <li><a href="aboutus.php">About Us</a></li>
+                                                <li><a href="missionandvision.php">Mission & Vision</a></li>
+                                                <li><a href="corevalues.php">Core Values</a></li>
+                                                <li><a href="motto.php">Motto</a></li>
+                                                <li><a href="ourhistory.php">Our History</a></li>
+                                                <li><a href="whatisfoodrecycling.php">What is food Recycling</a></li>
+                                                <li><a href="whatwedo.php">What We do</a></li>
+                                                <li><a href="depositfood.php">Deposit Food</a></li>
+                                                <li><a href="volunteer.php">Volunteer</a></li>
+                                                <li><a href="donate.php">Donate</a></li>
+                                                <li><a href="whatsnew.php">What's New</a></li>
+                                                <li><a href="careers.php">Careers</a></li>
                                             </ul>
                                         </li>
 
-                                        <li><a href="team.html">TEAM</a></li>
+                                        <li><a href="team.php">TEAM</a></li>
 
-                                        <li><a href="ourgoals.html">OUR GOALS</a></li>
+                                        <li><a href="ourgoals.php">OUR GOALS</a></li>
 
                                         <li><a href="#">SERVICES</a>
                                             <ul class="submenu">
-                                                <li><a href="sustainableagriculturalconsultancy.html">SUSTAINABLE
+                                                <li><a href="sustainableagriculturalconsultancy.php">SUSTAINABLE
                                                         AGRICULTURAL CONSULTANCY</a></li>
-                                                <li><a href="foodwasterecyclingindustry.html">FOOD WASTE RECYCLING
+                                                <li><a href="foodwasterecyclingindustry.php">FOOD WASTE RECYCLING
                                                         INDUSTRY</a></li>
-                                                <li><a href="foodbankingfoodsecurity.html">FOOD BANKING & FOOD SECURITY
+                                                <li><a href="foodbankingfoodsecurity.php">FOOD BANKING & FOOD SECURITY
                                                         CONSULTANCY</a></li>
-                                                <li><a href="eosphconsultancy.html">ENVIRONMENTAL, OCCUPATIONAL SAFETY &
+                                                <li><a href="eosphconsultancy.php">ENVIRONMENTAL, OCCUPATIONAL SAFETY &
                                                         PUBLIC HEALTH CONSULTANCY</a></li>
 
                                             </ul>
                                         </li>
-                                        <li><a href="blog.html">BLOG</a></li>
+                                        <li><a href="blog.php">BLOG</a></li>
 
-                                        <li><a href="contactus.html">CONTACT US</a></li>
+                                        <li><a href="contactus.php">CONTACT US</a></li>
                                     </ul>
                                 </nav>
                             </div>
@@ -144,8 +142,7 @@
                             <div class="header-search d-none d-lg-block">
 
                                 <div class="hero__btn">
-                                    <a href="http://www.pomilly.com/webmail" class="btn hero-btn"
-                                        data-animation="fadeInLeft" data-delay=".8s">Staff Email</a>
+                                    <a href="http://www.pomilly.com/webmail" class="btn hero-btn" data-animation="fadeInLeft" data-delay=".8s">Staff Email</a>
                                 </div>
 
                             </div>
@@ -157,70 +154,72 @@
                     </div>
                 </div>
             </div>
-        </div> <!-- Header End -->
+        </div>
+        <!-- Header End -->
     </header>
     <main>
-        <!--? Hero Start -->
-        <div class="slider-area">
-            <div class="slider-height2 d-flex align-items-center">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xl-12">
-                            <div class="hero-cap hero-cap2 text-center">
-                                <h2>Our History</h2>
+        <!--? slider Area Start-->
+        <div class="slider-area ">
+            <div class="slider-active">
+                <!-- Single Slider -->
+                <div class="single-slider slider-height d-flex align-items-center">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-md-5">
+                                <div class="hero__caption">
+                                    <span data-animation="fadeInLeft" data-delay=".2s">Pomilly East African
+                                        Limited</span>
+                                    <h1 data-animation="fadeInLeft" data-delay=".4s">Biotech and Food Wastes Recycling Company
+                                    </h1>
+                                    <!-- Hero-btn -->
+                                    <div class="hero__btn">
+                                        <a href="contactus.php" class="btn hero-btn" data-animation="fadeInLeft" data-delay=".8s">Contact Us</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-6 ">
+                                <div class="hero-man d-none d-lg-block f-right" data-animation="jello" data-delay=".4s">
+                                    <img src="assets/img/home.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Slider -->
+
+            </div>
+        </div>
+        <!-- slider Area End-->
+
+        <!--? About Law Start-->
+        <div class="about-area section-padding2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="about-caption mb-50">
+                            <!-- Section Tittle -->
+                            <div class="section-tittle mb-35">
+                                <span>More About Our Company</span>
+                                <h2>Want to know more</h2>
+                            </div>
+                            <p>Pomilly East African Limited is an environmental sustainability and acoustic services company that aims at improving basic environmental standards through biotechnology and recycling food wastes.</p>
+
+                            <a href="aboutus.php" class="btn">More About Us</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <!-- about-img -->
+                        <div class="about-img ">
+
+                            <div class="about-back-img ">
+                                <img src="assets/img/pomilly_001.jpg" width="50%" alt="">
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Hero End -->
-        <!-- About Details Start -->
-        <div class="about-details section-padding30">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-8">
-                        <div class="about-details-cap mb-50">
-                            <h4>Our History</h4>
-                            <p align="justify">
-
-                                Pomilly East African Limited was set up by Milkah Mwai and Pondi Collins, a pair of
-                                friends running a food
-                                distribution business, After observing the food industry for more than a decade, they
-                                realized the need for a
-                                food bank in Kenya.
-                            </p>
-
-                            <p align="justify">
-
-                                Founded in March 2018 The PEAL (Pomilly East African Limited)visited more than 30
-                                charity organisations and homes
-                                to gain better insight into the situation on the ground. We also took the time to
-                                understand the operating models
-                                of each organisation that provides free meals and dry rations to the needy and less
-                                fortunate families and individuals.
-                            </p>
-
-                            <p align="justify">
-
-                                We were given charity status in August 2019 and IPC status in May 2020.
-                            </p>
-
-                            <p align="justify">
-
-                                We are registered in
-                                <a style="color: blue;" href="https://www.foodbanking.org">The Global Foodbanking
-                                    Network .</a>
-                            </p>
-
-                        </div>
-
-
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- About Details End -->
+        <!-- About Law End-->
 
     </main>
     <footer>
@@ -235,10 +234,10 @@
                                 <div class="footer-tittle">
                                     <h4>Company</h4>
                                     <ul>
-                                        <li><a href="aboutus.html" style="color:white">About Us</a></li>
-                                        <li><a href="missionandvision.html" style="color:white">Mission & Vision</a>
+                                        <li><a href="aboutus.php" style="color:white">About Us</a></li>
+                                        <li><a href="missionandvision.php" style="color:white">Mission & Vision</a>
                                         </li>
-                                        <li><a href="corevalues.html" style="color:white">Core Values</a></li>
+                                        <li><a href="corevalues.php" style="color:white">Core Values</a></li>
 
                                     </ul>
                                 </div>
@@ -249,13 +248,12 @@
                                 <div class="footer-tittle">
                                     <h4>Services</h4>
                                     <ul>
-                                        <li><a href="sustainableagriculturalconsultancy.html"
-                                                style="color:white">SUSTAINABLE AGRICULTURAL CONSULTANCY</a></li>
-                                        <li><a href="foodwasterecyclingindustry.html" style="color:white">FOOD WASTE
+                                        <li><a href="sustainableagriculturalconsultancy.php" style="color:white">SUSTAINABLE AGRICULTURAL CONSULTANCY</a></li>
+                                        <li><a href="foodwasterecyclingindustry.php" style="color:white">FOOD WASTE
                                                 RECYCLING INDUSTRY</a></li>
-                                        <li><a href="foodbankingfoodsecurity.html" style="color:white">FOOD BANKING &
+                                        <li><a href="foodbankingfoodsecurity.php" style="color:white">FOOD BANKING &
                                                 FOOD SECURITY CONSULTANCY</a></li>
-                                        <li><a href="eosphconsultancy.html" style="color:white">ENVIRONMENTAL,
+                                        <li><a href="eosphconsultancy.php" style="color:white">ENVIRONMENTAL,
                                                 OCCUPATIONAL SAFETY & PUBLIC HEALTH CONSULTANCY</a></li>
                                     </ul>
                                 </div>
@@ -266,9 +264,9 @@
                                 <div class="footer-tittle">
                                     <h4>Quick Links</h4>
                                     <ul>
-                                        <li><a href="contactus.html" style="color:white">Contact Us</a></li>
-                                        <li><a href="team.html" style="color:white">Our Team</a></li>
-                                        <li><a href="ourgoals.html" style="color:white">Our Goals</a></li>
+                                        <li><a href="contactus.php" style="color:white">Contact Us</a></li>
+                                        <li><a href="team.php" style="color:white">Our Team</a></li>
+                                        <li><a href="ourgoals.php" style="color:white">Our Goals</a></li>
 
                                     </ul>
                                 </div>
@@ -314,29 +312,39 @@
                     </div>
                 </div>
             </div>
-        </div> <!-- Footer End-->
+        </div>
+        <!-- Footer End-->
     </footer>
     <!-- Scroll Up -->
     <div id="back-top">
         <a title="Go to Top" href="#"> <i class="fas fa-level-up-alt"></i></a>
     </div>
 
-     <!-- GetButton.io widget -->
-     <script type="text/javascript">
-        (function () {
-        var options = {
-        whatsapp: "+254 745 462781", // WhatsApp number
-        call_to_action: "Message us", // Call to action
-        position: "left", // Position may be 'right' or 'left'
-        pre_filled_message: "Hi there 👋 Welcome to Pomilly East Africa Limited", // WhatsApp pre-filled message
-        };
-        var proto = document.location.protocol, host = "getbutton.io", url = proto + "//static." + host;
-        var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
-        s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
-        var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+    <!-- GetButton.io widget -->
+    <script type="text/javascript">
+        (function() {
+            var options = {
+                whatsapp: "+254 745 462781", // WhatsApp number
+                call_to_action: "Message us", // Call to action
+                position: "left", // Position may be 'right' or 'left'
+                pre_filled_message: "Hi there 👋 Welcome to Pomilly East Africa Limited", // WhatsApp pre-filled message
+            };
+            var proto = document.location.protocol,
+                host = "getbutton.io",
+                url = proto + "//static." + host;
+            var s = document.createElement('script');
+            s.type = 'text/javascript';
+            s.async = true;
+            s.src = url + '/widget-send-button/js/init.js';
+            s.onload = function() {
+                WhWidgetSendButton.init(host, proto, options);
+            };
+            var x = document.getElementsByTagName('script')[0];
+            x.parentNode.insertBefore(s, x);
         })();
-        </script>
+    </script>
     <!-- /GetButton.io widget -->
+
     <!-- JS here -->
 
     <script src="assets/js/vendor/modernizr-3.5.0.min.js"></script>

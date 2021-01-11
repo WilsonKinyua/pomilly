@@ -15,7 +15,7 @@
     <title>ENVIRONMENTAL, OCCUPATIONAL SAFETY & PUBLIC HEALTH CONSULTANCY | Pomilly East African Limited</title>
     <meta name="description" content="Developed by Developer Wilson">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="manifest" href="site.html">
+    <link rel="manifest" href="site.php">
     <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
 
     <!-- CSS here -->
@@ -84,59 +84,59 @@
                 <div class="header-bottom header-sticky">
                     <!-- Logo -->
                     <div class="logo d-none d-lg-block">
-                        <a href="index-2.html"><img src="assets/img/PomillyLogo2.jpg" width="180px" height="98px"
+                        <a href="index-2.php"><img src="assets/img/PomillyLogo2.jpg" width="180px" height="98px"
                                 alt=""></a>
                     </div>
                     <div class="container">
                         <div class="menu-wrapper">
                             <!-- Logo -->
                             <div class="logo logo2 d-block d-lg-none">
-                                <a href="index-2.html"><img src="assets/img/PomillyLogo2.jpg" width="180px"
+                                <a href="index-2.php"><img src="assets/img/PomillyLogo2.jpg" width="180px"
                                         height="98px" alt=""></a>
                             </div>
                             <!-- Main-menu -->
                             <div class="main-menu d-none d-lg-block">
                                 <nav>
                                     <ul id="navigation">
-                                        <li><a href="index-2.html">HOME</a></li>
+                                        <li><a href="index-2.php">HOME</a></li>
 
                                         <li><a href="#">COMPANY</a>
                                             <ul class="submenu">
-                                                <li><a href="aboutus.html">About Us</a></li>
-                                                <li><a href="missionandvision.html">Mission & Vision</a></li>
-                                                <li><a href="corevalues.html">Core Values</a></li>
-                                                <li><a href="motto.html">Motto</a></li>
-                                                <li><a href="ourhistory.html">Our History</a></li>
-                                                <li><a href="whatisfoodrecycling.html">What is food Recycling</a></li>
-                                                <li><a href="whatwedo.html">What We do</a></li>
-                                                <li><a href="depositfood.html">Deposit Food</a></li>
-                                                <li><a href="volunteer.html">Volunteer</a></li>
-                                                <li><a href="donate.html">Donate</a></li>
-                                                <li><a href="whatsnew.html">What's New</a></li>
-                                                <li><a href="careers.html">Careers</a></li>
+                                                <li><a href="aboutus.php">About Us</a></li>
+                                                <li><a href="missionandvision.php">Mission & Vision</a></li>
+                                                <li><a href="corevalues.php">Core Values</a></li>
+                                                <li><a href="motto.php">Motto</a></li>
+                                                <li><a href="ourhistory.php">Our History</a></li>
+                                                <li><a href="whatisfoodrecycling.php">What is food Recycling</a></li>
+                                                <li><a href="whatwedo.php">What We do</a></li>
+                                                <li><a href="depositfood.php">Deposit Food</a></li>
+                                                <li><a href="volunteer.php">Volunteer</a></li>
+                                                <li><a href="donate.php">Donate</a></li>
+                                                <li><a href="whatsnew.php">What's New</a></li>
+                                                <li><a href="careers.php">Careers</a></li>
                                             </ul>
                                         </li>
 
-                                        <li><a href="team.html">TEAM</a></li>
+                                        <li><a href="team.php">TEAM</a></li>
 
-                                        <li><a href="ourgoals.html">OUR GOALS</a></li>
+                                        <li><a href="ourgoals.php">OUR GOALS</a></li>
 
                                         <li><a href="#">SERVICES</a>
                                             <ul class="submenu">
-                                                <li><a href="sustainableagriculturalconsultancy.html">SUSTAINABLE
+                                                <li><a href="sustainableagriculturalconsultancy.php">SUSTAINABLE
                                                         AGRICULTURAL CONSULTANCY</a></li>
-                                                <li><a href="foodwasterecyclingindustry.html">FOOD WASTE RECYCLING
+                                                <li><a href="foodwasterecyclingindustry.php">FOOD WASTE RECYCLING
                                                         INDUSTRY</a></li>
-                                                <li><a href="foodbankingfoodsecurity.html">FOOD BANKING & FOOD SECURITY
+                                                <li><a href="foodbankingfoodsecurity.php">FOOD BANKING & FOOD SECURITY
                                                         CONSULTANCY</a></li>
-                                                <li><a href="eosphconsultancy.html">ENVIRONMENTAL, OCCUPATIONAL SAFETY &
+                                                <li><a href="eosphconsultancy.php">ENVIRONMENTAL, OCCUPATIONAL SAFETY &
                                                         PUBLIC HEALTH CONSULTANCY</a></li>
 
                                             </ul>
                                         </li>
-                                        <li><a href="blog.html">BLOG</a></li>
+                                        <li><a href="blog.php">BLOG</a></li>
 
-                                        <li><a href="contactus.html">CONTACT US</a></li>
+                                        <li><a href="contactus.php">CONTACT US</a></li>
                                     </ul>
                                 </nav>
                             </div>
@@ -167,7 +167,7 @@
                     <div class="row">
                         <div class="col-xl-12">
                             <div class="hero-cap hero-cap2 text-center">
-                                <h2>ENVIRONMENTAL, OCCUPATIONAL SAFETY & PUBLIC HEALTH CONSULTANCY</h2>
+                                <h2>Our Team</h2>
                             </div>
                         </div>
                     </div>
@@ -175,93 +175,61 @@
             </div>
         </div>
         <!-- Hero End -->
-        <!-- all-course Start -->
-        <section class="all-course section-padding30">
+        <!--? Team Ara Start -->
+        <div class="team-area pt-160 pb-160">
             <div class="container">
                 <div class="row">
-                    <div class="all-course-wrapper">
-                        <!-- Heading & Nav Button -->
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="single-team mb-30">
+                            <div class="team-img">
+                                <img src="assets/img/PHOTO-2020-12-20-18-42-571.jpg" width="250px" height="320px"
+                                    alt="">
 
-                        <div class="about-details section-padding30">
-                            <div class="container">
-                                <div class="row justify-content-center">
-                                    <div class="col-lg-12">
-                                        <div class="about-details-cap mb-50">
-                                            <h4>ENVIRONMENTAL, OCCUPATIONAL SAFETY & PUBLIC HEALTH CONSULTANCY</h4>
-
-
-                                            <p align="justify">
-                                                POMILLY EAST AFRICAN LIMITED has positioned itself as a DOSHS and NEMA
-                                                registered Consultancy Company with proficient staff to operate a one
-                                                stop
-                                                hub where all Environment, Safety and Health compliance and best
-                                                practice
-                                                requirements can be consulted from. Our main aim is to establish our
-                                                presence, both nationally and internationally and to become leaders
-                                                in all matters Environment, Safety and Health. We endeavor to build
-                                                strong workplace safety and health systems as well as environmental
-                                                and natural resource management systems that can support national
-                                                development through a sustainability approach.
-                                            </p>
-
-                                            <h5>OUR TARGET GROUPS</h5>
-                                            <p align="justify">
-                                                POMILLY EAST AFRICAN LIMITED EHS Services target groups but not limited
-                                                to public sector, private sector, International Organizations, NGO’s and
-                                                other related organizations.
-                                            </p>
-
-                                            <h5>STAFFING</h5>
-                                            <p align="justify">
-                                                In addition to our strategic partners and collaborating institutions,
-                                                we have an in-house capacity of six inter disciplinary consultants and
-                                                more than five listed collaborating consultants who serve as resource
-                                                faculty on a short call basis and case-by case basis.
-                                                They are specialists in their respective fields with all the necessary
-                                                experience needed to carry out the specific assignments. Where necessary
-                                                we do engage staff on call basis. We also have a strong marketing team
-                                                of
-                                                five.
-                                            </p>
-
-                                            <p align="justify">
-                                                POMILLY EAST AFRICAN LIMITED EHS Services Ltd structure is based on
-                                                the Key function areas namely: -
-                                            </p>
-
-                                            <ul style="line-height:200%">
-                                                <li>1. Consultancy Division</li>
-                                                <li>2. Training Division</li>
-                                                <li>3. Project Management, Implementation, Monitoring and Evaluation.
-                                                </li>
-                                                <li>4. Fire Service Department</li>
-                                                <li>5. Engineering service</li>
-                                            </ul>
-
-
-
-                                        </div>
-
-
-                                    </div>
-                                </div>
+                            </div>
+                            <div class="team-caption">
+                                <h3><a href="#">Pondi Collins</a></h3>
+                                <p class="deg">CEO & Founder</p>
+                                <p>An Engineer, a farmer (Advance and Technological ), Health, Environmental and Safety
+                                    (HSE) Consultant, Environment and Climate Research Analyst</p>
                             </div>
                         </div>
-
-
-
-
                     </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="single-team mb-30">
+                            <div class="team-img">
+                                <img src="assets/img/PHOTO-2020-12-20-19-01-29.jpg" width="250px" height="320px" alt="">
+
+                            </div>
+                            <div class="team-caption">
+                                <h3><a href="#">Milkah Mwai</a></h3>
+                                <p class="deg">Deputy CEO & Co-Founder</p>
+                                <p>Public Health Officer, an Environmentalist, Health Safety and Environmental (HSE)
+                                    Consultant, WASH Expert </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="single-team mb-30">
+                            <div class="team-img">
+                                <img src="assets/img/PHOTO-2020-12-20-19-12-34.jpg" width="250px" height="320px" alt="">
+
+                            </div>
+                            <div class="team-caption">
+                                <h3><a href="#">Jane Nderi</a></h3>
+                                <p class="deg">Managing Director</p>
+                                <p>A Doctor, Public Health Officer, Environmentalist and WASH Expert</p>
+                            </div>
+                        </div>
+                    </div>
+
+
                 </div>
             </div>
-        </section>
-        <!-- all-course End -->
+        </div>
+        <!-- Team Ara End -->
     </main>
-    <style>
-        .footer-area a:hover {
-            color: rgba(247, 231, 9, 0.603) !important;
-        }
-    </style>
     <footer>
         <!--? Footer Start-->
         <div class="footer-area footer-bg">
@@ -274,10 +242,10 @@
                                 <div class="footer-tittle">
                                     <h4>Company</h4>
                                     <ul>
-                                        <li><a href="aboutus.html" style="color:white">About Us</a></li>
-                                        <li><a href="missionandvision.html" style="color:white">Mission & Vision</a>
+                                        <li><a href="aboutus.php" style="color:white">About Us</a></li>
+                                        <li><a href="missionandvision.php" style="color:white">Mission & Vision</a>
                                         </li>
-                                        <li><a href="corevalues.html" style="color:white">Core Values</a></li>
+                                        <li><a href="corevalues.php" style="color:white">Core Values</a></li>
 
                                     </ul>
                                 </div>
@@ -288,13 +256,13 @@
                                 <div class="footer-tittle">
                                     <h4>Services</h4>
                                     <ul>
-                                        <li><a href="sustainableagriculturalconsultancy.html"
+                                        <li><a href="sustainableagriculturalconsultancy.php"
                                                 style="color:white">SUSTAINABLE AGRICULTURAL CONSULTANCY</a></li>
-                                        <li><a href="foodwasterecyclingindustry.html" style="color:white">FOOD WASTE
+                                        <li><a href="foodwasterecyclingindustry.php" style="color:white">FOOD WASTE
                                                 RECYCLING INDUSTRY</a></li>
-                                        <li><a href="foodbankingfoodsecurity.html" style="color:white">FOOD BANKING &
+                                        <li><a href="foodbankingfoodsecurity.php" style="color:white">FOOD BANKING &
                                                 FOOD SECURITY CONSULTANCY</a></li>
-                                        <li><a href="eosphconsultancy.html" style="color:white">ENVIRONMENTAL,
+                                        <li><a href="eosphconsultancy.php" style="color:white">ENVIRONMENTAL,
                                                 OCCUPATIONAL SAFETY & PUBLIC HEALTH CONSULTANCY</a></li>
                                     </ul>
                                 </div>
@@ -305,9 +273,9 @@
                                 <div class="footer-tittle">
                                     <h4>Quick Links</h4>
                                     <ul>
-                                        <li><a href="contactus.html" style="color:white">Contact Us</a></li>
-                                        <li><a href="team.html" style="color:white">Our Team</a></li>
-                                        <li><a href="ourgoals.html" style="color:white">Our Goals</a></li>
+                                        <li><a href="contactus.php" style="color:white">Contact Us</a></li>
+                                        <li><a href="team.php" style="color:white">Our Team</a></li>
+                                        <li><a href="ourgoals.php" style="color:white">Our Goals</a></li>
 
                                     </ul>
                                 </div>
@@ -375,7 +343,7 @@
         var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
         })();
         </script>
-     <!-- /GetButton.io widget -->
+    <!-- /GetButton.io widget -->
     
     <!-- JS here -->
 

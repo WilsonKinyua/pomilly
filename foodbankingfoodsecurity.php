@@ -15,7 +15,7 @@
     <title>ENVIRONMENTAL, OCCUPATIONAL SAFETY & PUBLIC HEALTH CONSULTANCY | Pomilly East African Limited</title>
     <meta name="description" content="Developed by Developer Wilson">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="manifest" href="site.html">
+    <link rel="manifest" href="site.php">
     <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
 
     <!-- CSS here -->
@@ -84,59 +84,59 @@
                 <div class="header-bottom header-sticky">
                     <!-- Logo -->
                     <div class="logo d-none d-lg-block">
-                        <a href="index-2.html"><img src="assets/img/PomillyLogo2.jpg" width="180px" height="98px"
+                        <a href="index-2.php"><img src="assets/img/PomillyLogo2.jpg" width="180px" height="98px"
                                 alt=""></a>
                     </div>
                     <div class="container">
                         <div class="menu-wrapper">
                             <!-- Logo -->
                             <div class="logo logo2 d-block d-lg-none">
-                                <a href="index-2.html"><img src="assets/img/PomillyLogo2.jpg" width="180px"
+                                <a href="index-2.php"><img src="assets/img/PomillyLogo2.jpg" width="180px"
                                         height="98px" alt=""></a>
                             </div>
                             <!-- Main-menu -->
                             <div class="main-menu d-none d-lg-block">
                                 <nav>
                                     <ul id="navigation">
-                                        <li><a href="index-2.html">HOME</a></li>
+                                        <li><a href="index-2.php">HOME</a></li>
 
                                         <li><a href="#">COMPANY</a>
                                             <ul class="submenu">
-                                                <li><a href="aboutus.html">About Us</a></li>
-                                                <li><a href="missionandvision.html">Mission & Vision</a></li>
-                                                <li><a href="corevalues.html">Core Values</a></li>
-                                                <li><a href="motto.html">Motto</a></li>
-                                                <li><a href="ourhistory.html">Our History</a></li>
-                                                <li><a href="whatisfoodrecycling.html">What is food Recycling</a></li>
-                                                <li><a href="whatwedo.html">What We do</a></li>
-                                                <li><a href="depositfood.html">Deposit Food</a></li>
-                                                <li><a href="volunteer.html">Volunteer</a></li>
-                                                <li><a href="donate.html">Donate</a></li>
-                                                <li><a href="whatsnew.html">What's New</a></li>
-                                                <li><a href="careers.html">Careers</a></li>
+                                                <li><a href="aboutus.php">About Us</a></li>
+                                                <li><a href="missionandvision.php">Mission & Vision</a></li>
+                                                <li><a href="corevalues.php">Core Values</a></li>
+                                                <li><a href="motto.php">Motto</a></li>
+                                                <li><a href="ourhistory.php">Our History</a></li>
+                                                <li><a href="whatisfoodrecycling.php">What is food Recycling</a></li>
+                                                <li><a href="whatwedo.php">What We do</a></li>
+                                                <li><a href="depositfood.php">Deposit Food</a></li>
+                                                <li><a href="volunteer.php">Volunteer</a></li>
+                                                <li><a href="donate.php">Donate</a></li>
+                                                <li><a href="whatsnew.php">What's New</a></li>
+                                                <li><a href="careers.php">Careers</a></li>
                                             </ul>
                                         </li>
 
-                                        <li><a href="team.html">TEAM</a></li>
+                                        <li><a href="team.php">TEAM</a></li>
 
-                                        <li><a href="ourgoals.html">OUR GOALS</a></li>
+                                        <li><a href="ourgoals.php">OUR GOALS</a></li>
 
                                         <li><a href="#">SERVICES</a>
                                             <ul class="submenu">
-                                                <li><a href="sustainableagriculturalconsultancy.html">SUSTAINABLE
+                                                <li><a href="sustainableagriculturalconsultancy.php">SUSTAINABLE
                                                         AGRICULTURAL CONSULTANCY</a></li>
-                                                <li><a href="foodwasterecyclingindustry.html">FOOD WASTE RECYCLING
+                                                <li><a href="foodwasterecyclingindustry.php">FOOD WASTE RECYCLING
                                                         INDUSTRY</a></li>
-                                                <li><a href="foodbankingfoodsecurity.html">FOOD BANKING & FOOD SECURITY
+                                                <li><a href="foodbankingfoodsecurity.php">FOOD BANKING & FOOD SECURITY
                                                         CONSULTANCY</a></li>
-                                                <li><a href="eosphconsultancy.html">ENVIRONMENTAL, OCCUPATIONAL SAFETY &
+                                                <li><a href="eosphconsultancy.php">ENVIRONMENTAL, OCCUPATIONAL SAFETY &
                                                         PUBLIC HEALTH CONSULTANCY</a></li>
 
                                             </ul>
                                         </li>
-                                        <li><a href="blog.html">BLOG</a></li>
+                                        <li><a href="blog.php">BLOG</a></li>
 
-                                        <li><a href="contactus.html">CONTACT US</a></li>
+                                        <li><a href="contactus.php">CONTACT US</a></li>
                                     </ul>
                                 </nav>
                             </div>
@@ -167,7 +167,7 @@
                     <div class="row">
                         <div class="col-xl-12">
                             <div class="hero-cap hero-cap2 text-center">
-                                <h2>FOOD WASTE RECYCLING INDUSTRY</h2>
+                                <h2>FOOD BANKING & FOOD SECURITY CONSULTANCY</h2>
                             </div>
                         </div>
                     </div>
@@ -182,84 +182,134 @@
                     <div class="all-course-wrapper">
                         <!-- Heading & Nav Button -->
 
-                        <div class="about-details">
+                        <div class="about-details section-padding30">
                             <div class="container">
                                 <div class="row justify-content-center">
                                     <div class="col-lg-12">
                                         <div class="about-details-cap mb-50">
-                                            <h4>FOOD WASTE RECYCLING INDUSTRY</h4>
-                                            <p align="justify">
-                                                Your Next Shirt /Dress Could Be Made From Fruit and Vegetable Scraps
-                                                Pomilly's innovative technology promises to transform food waste fibers
-                                                into wearable fabric.
+                                            <h4>FOOD BANKING & FOOD SECURITY CONSULTANCY</h4>
 
+                                            <h5>Sustainable Food Systems - Achieving Food Security</h5>
+                                            <p align="justify">
+                                                Achieving universal food security hinges on creating sustainable food
+                                                production and distribution systems, along with resilient agricultural
+                                                practices. Among the many players working to surmount this challenge,
+                                                businesses will need to play a key role.
+                                            </p>
+
+                                            <h5>Sustainable Food Systems</h5>
+                                            <p align="justify">
+                                                When it comes to establishing sustainable food systems, the UN laid a
+                                                firm foundation with its Sustainable Development Goal, “End hunger,
+                                                achieve food security and improved nutrition, and promote sustainable
+                                                agriculture.” Efforts to combat hunger and malnutrition, and improve
+                                                supply chain infrastructure and efficiency, have delivered some
+                                                encouraging results.
+                                                But much more is needed to create sustainable food systems for all.
                                             </p>
 
                                             <p align="justify">
-                                                The fashion industry is said to be the second most polluting industry on
-                                                Earth after oil and gas. It requires enormous quantities of resources,
-                                                including water, land, and fossil fuels, to make fabric. The production
-                                                process is often harmful to the environment, relying on harsh chemical
-                                                dyes and finishes.
+                                                During 2014 to 2016, nearly 800 million people around the globe suffered
+                                                from malnutrition.
                                             </p>
 
                                             <p align="justify">
-                                                Fortunately, more people are becoming aware of these problems, thanks
-                                                to eye-opening documentaries like "The True Cost," sustainable fashion
-                                                advocates like actress Emma Watson and activist Livia Firth, and
-                                                high-profile
-                                                reports like the one recently published by the Ellen MacArthur
-                                                Foundation.
-                                                Headlines warning of plastic microfibre pollution have helped to push
-                                                the
-                                                issue into the spotlight, and there is growing backlash against
-                                                'disposable'
-                                                fast fashion.
+                                                By 2030, annual food loss and waste will hit 2.1 billion tons—worth $1.5
+                                                trillion.
                                             </p>
 
                                             <p align="justify">
-                                                It's a good time, in other words, to be a sustainable fashion startup,
-                                                especially if you offer an innovative new technology that solves
-                                                multiple
-                                                problems at once. This is precisely what Pomilly East African is doing.
+                                                Equally concerning are the projected increases in population and growth
+                                                in
+                                                climate-related disasters—which have doubled since the early 1990s. A
+                                                growing
+                                                population means more mouths to feed with the same limited resources; an
+                                                increase
+                                                in climate disasters means more droughts, floods, and storms hindering
+                                                global food production.
                                             </p>
-
-                                            <h5>Advantages to Food Waste Fabric</h5>
 
                                             <p align="justify">
-                                                The idea is brilliant and dead-simple. There is a ton of food crop waste
-                                                globally, an estimated 250 million tons from the byproducts of five key
-                                                food crops -- bananas peels and stalks, pineapple leaves, flax and hemp
-                                                stalks, and crushed sugar cane. Using Pomilly's new technology, this
-                                                waste can be turned into fabric, which means:
+                                                Can society hope to resolve these problems and achieve universal food
+                                                security? Yes—but doing so
+                                                will require agricultural, technological, and economic innovation, along
+                                                with new forms of
+                                                cross-sector collaboration.
                                             </p>
 
-                                            <ul style="line-height:200%">
-                                                <li>(a) Farmers don't have to burn the waste and contribute to air
-                                                    pollution</li>
-                                                <li>(b) Less waste will be sent to landfill to rot and emit methane</li>
-                                                <li>(c) Arable land is freed up to grow food, rather than fabric crops
-                                                </li>
-                                                <li>(d) There is less demand for fossil fuels to make synthetic fabrics
-                                                </li>
-                                                <li>(e) Fewer chemicals would be needed to grow cotton, a high-input
-                                                    crop</li>
-                                            </ul>
+                                            <h5>What Does Food Security Mean?</h5>
+                                            <p align="justify">
+                                                Achieving and sustaining universal food security hinges on creating
+                                                sustainable food production
+                                                and distribution systems, as well as resilient agricultural practices.
+                                                Among the many players
+                                                working to surmount the food security challenge, businesses will need to
+                                                play a key role.
+                                                They’ll have to enable sufficient increases in food production—plus
+                                                ensure access to food.
+                                            </p>
 
                                             <p align="justify">
-                                                We've called the technology 'new,' but in reality it's a throwback to
-                                                the
-                                                past. There was a time when the vast majority of clothes were made from
-                                                natural fibers (97 percent of clothing in 1960), but that number has
-                                                shrunk to only 35 percent today. By harnessing the bounty of food waste
-                                                fibers, Pomilly's founder Pondi Collins says 3.5 times the current
-                                                global
-                                                demand for fiber could be met.
+                                                Tailoring food sustainability strategies to diverse income levels will
+                                                be vital. For instance,
+                                                strategies must address the low purchasing power of the so-called
+                                                “bottom billion”—the very
+                                                poorest, who cannot afford to pay prices equal to or above companies’
+                                                production costs.
                                             </p>
 
+                                            <p align="justify">
+                                                Development funding also needs to evolve. For example, a previous lack
+                                                of interest and investment
+                                                in African agriculture has catalyzed a food crisis on the continent. Yet
+                                                agriculture is Africa’s
+                                                biggest source of jobs and a crucial contributor to human welfare.
+                                                Thankfully, the problem has
+                                                begun attracting attention and investment, fostering a new focus on
+                                                adapting African agriculture
+                                                to enhance food security. 
+                                            </p>
 
+                                            <h5>Pricing Models That Promote Food Security</h5>
+                                            <p align="justify">
+                                                How can food companies tailor their food-security strategies to the
+                                                bottom billion? These three
+                                                models can help:
+                                            </p>
 
+                                            <p align="justify">
+                                                External Subsidies. Governments, foundations, and other social sector
+                                                organizations provide external
+                                                subsidies in such forms as cash transfers or food vouchers to people in
+                                                need through social welfare
+                                                programs—enabling recipients to buy food at market rates.
+                                                Cross-Consumer Subsidies. Consumers with higher incomes provide a
+                                                subsidy to make products affordable
+                                                to the very poor. These include global customers in wealthy countries or
+                                                those in the middle- and upper-income
+                                                classes in developing countries, who pay an implicit or explicit premium
+                                                through measures, such as branding and package sizing.
+                                                The Social Business Model. Social businesses are non-dividend companies
+                                                created solely to solve societal or environmental problems.
+                                                Investors get their invested capital back over time, but all further
+                                                profits are reinvested in the company for expansion and improvement.
+                                                The company can make profits, but it does not distribute them to
+                                                investors.
+                                                While progress has been made toward combating global hunger, much work
+                                                remains. If every organization seeking to address this worldwide
+                                                scourge can commit to collaborating and innovating in new ways, they can
+                                                set the stage for enduring advances in the war on hunger. The payoff?
+                                                More people around the world will have the nourishment and energy needed
+                                                to live productive
+                                            </p>
 
+                                            <p align="justify">
+                                                As company we embrace food security by getting involved and including
+                                                stake holders into Foodbanking,
+                                                where by we get food from donors into our Foodbanks then donate them to
+                                                orphanage, refugees or to less
+                                                privileged in the society,then we e recycle the expired ones.
+                                            </p>
 
                                         </div>
 
@@ -280,11 +330,11 @@
                                     <div class="tab-pane fade show active" id="nav-home" role="tabpanel"
                                         aria-labelledby="nav-home-tab">
                                         <div class="row">
-                                            <!-- <div class="col-xl-4 col-lg-4 col-md-6"> -->
-                                            <!-- Single course -->
-                                            <!-- <div class="single-course mb-70">
+                                            <div class="col-xl-4 col-lg-4 col-md-6">
+                                                <!-- Single course -->
+                                                <div class="single-course mb-70">
                                                     <div class="course-img">
-                                                        <img src="assets/img/services/WhatsApp%20Image%202020-12-31%20at%202.22.22%20PM.jpg"
+                                                        <img src="assets/img/services/WhatsApp%20Image%202020-12-31%20at%202.56.28%20PM.jpg"
                                                             height="280px" alt="">
                                                     </div>
                                                     <div class="course-caption">
@@ -297,15 +347,14 @@
 
                                                     </div>
                                                 </div>
-                                            </div> -->
-
-
+                                            </div>
 
                                             <div class="col-xl-4 col-lg-4 col-md-6">
                                                 <!-- Single course -->
                                                 <div class="single-course mb-70">
                                                     <div class="course-img">
-                                                        <img src="assets/img/services/29.jpg" height="320px" alt="">
+                                                        <img src="assets/img/services/WhatsApp%20Image%202020-12-31%20at%203.02.45%20PM.jpg"
+                                                            height="280px" alt="">
                                                     </div>
                                                     <div class="course-caption">
                                                         <div class="course-cap-top">
@@ -323,7 +372,8 @@
                                                 <!-- Single course -->
                                                 <div class="single-course mb-70">
                                                     <div class="course-img">
-                                                        <img src="assets/img/services/30.jpg" height="320px" alt="">
+                                                        <img src="assets/img/services/WhatsApp%20Image%202020-12-31%20at%203.17.11%20PM.jpg"
+                                                            height="280px" alt="">
                                                     </div>
                                                     <div class="course-caption">
                                                         <div class="course-cap-top">
@@ -337,31 +387,12 @@
                                                 </div>
                                             </div>
 
-
                                             <div class="col-xl-4 col-lg-4 col-md-6">
                                                 <!-- Single course -->
                                                 <div class="single-course mb-70">
                                                     <div class="course-img">
-                                                        <img src="assets/img/services/31.jpg" height="320px" alt="">
-                                                    </div>
-                                                    <div class="course-caption">
-                                                        <div class="course-cap-top">
-
-                                                        </div>
-                                                        <p>
-                                                        </p>
-
-
-                                                    </div>
-                                                </div>
-                                            </div>
-
-
-                                            <div class="col-xl-4 col-lg-4 col-md-6">
-                                                <!-- Single course -->
-                                                <div class="single-course mb-70">
-                                                    <div class="course-img">
-                                                        <img src="assets/img/services/32.jpg" height="320px" alt="">
+                                                        <img src="assets/img/services/WhatsApp%20Image%202020-12-31%20at%203.17.12%20PM.jpg"
+                                                            height="280px" alt="">
                                                     </div>
                                                     <div class="course-caption">
                                                         <div class="course-cap-top">
@@ -380,7 +411,7 @@
                                                 <!-- Single course -->
                                                 <div class="single-course mb-70">
                                                     <div class="course-img">
-                                                        <img src="assets/img/services/33.jpg" height="320px" alt="">
+                                                        <img src="assets/img/services/35.jpg" height="280px" alt="">
                                                     </div>
                                                     <div class="course-caption">
                                                         <div class="course-cap-top">
@@ -395,23 +426,6 @@
                                             </div>
 
 
-                                            <div class="col-xl-4 col-lg-4 col-md-6">
-                                                <!-- Single course -->
-                                                <div class="single-course mb-70">
-                                                    <div class="course-img">
-                                                        <img src="assets/img/services/34.jpg" height="320px" alt="">
-                                                    </div>
-                                                    <div class="course-caption">
-                                                        <div class="course-cap-top">
-
-                                                        </div>
-                                                        <p>
-                                                        </p>
-
-
-                                                    </div>
-                                                </div>
-                                            </div>
 
                                         </div>
                                     </div>
@@ -445,10 +459,10 @@
                                 <div class="footer-tittle">
                                     <h4>Company</h4>
                                     <ul>
-                                        <li><a href="aboutus.html" style="color:white">About Us</a></li>
-                                        <li><a href="missionandvision.html" style="color:white">Mission & Vision</a>
+                                        <li><a href="aboutus.php" style="color:white">About Us</a></li>
+                                        <li><a href="missionandvision.php" style="color:white">Mission & Vision</a>
                                         </li>
-                                        <li><a href="corevalues.html" style="color:white">Core Values</a></li>
+                                        <li><a href="corevalues.php" style="color:white">Core Values</a></li>
 
                                     </ul>
                                 </div>
@@ -459,13 +473,13 @@
                                 <div class="footer-tittle">
                                     <h4>Services</h4>
                                     <ul>
-                                        <li><a href="sustainableagriculturalconsultancy.html"
+                                        <li><a href="sustainableagriculturalconsultancy.php"
                                                 style="color:white">SUSTAINABLE AGRICULTURAL CONSULTANCY</a></li>
-                                        <li><a href="foodwasterecyclingindustry.html" style="color:white">FOOD WASTE
+                                        <li><a href="foodwasterecyclingindustry.php" style="color:white">FOOD WASTE
                                                 RECYCLING INDUSTRY</a></li>
-                                        <li><a href="foodbankingfoodsecurity.html" style="color:white">FOOD BANKING &
+                                        <li><a href="foodbankingfoodsecurity.php" style="color:white">FOOD BANKING &
                                                 FOOD SECURITY CONSULTANCY</a></li>
-                                        <li><a href="eosphconsultancy.html" style="color:white">ENVIRONMENTAL,
+                                        <li><a href="eosphconsultancy.php" style="color:white">ENVIRONMENTAL,
                                                 OCCUPATIONAL SAFETY & PUBLIC HEALTH CONSULTANCY</a></li>
                                     </ul>
                                 </div>
@@ -476,9 +490,9 @@
                                 <div class="footer-tittle">
                                     <h4>Quick Links</h4>
                                     <ul>
-                                        <li><a href="contactus.html" style="color:white">Contact Us</a></li>
-                                        <li><a href="team.html" style="color:white">Our Team</a></li>
-                                        <li><a href="ourgoals.html" style="color:white">Our Goals</a></li>
+                                        <li><a href="contactus.php" style="color:white">Contact Us</a></li>
+                                        <li><a href="team.php" style="color:white">Our Team</a></li>
+                                        <li><a href="ourgoals.php" style="color:white">Our Goals</a></li>
 
                                     </ul>
                                 </div>
@@ -530,7 +544,7 @@
     <div id="back-top">
         <a title="Go to Top" href="#"> <i class="fas fa-level-up-alt"></i></a>
     </div>
-    
+
      <!-- GetButton.io widget -->
      <script type="text/javascript">
         (function () {
@@ -547,7 +561,7 @@
         })();
         </script>
     <!-- /GetButton.io widget -->
-
+    
     <!-- JS here -->
 
     <script src="assets/js/vendor/modernizr-3.5.0.min.js"></script>
