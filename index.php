@@ -15,7 +15,7 @@
                                     </h1>
                                     <!-- Hero-btn -->
                                     <div class="hero__btn">
-                                        <a href="contactus.php" class="btn hero-btn" data-animation="fadeInLeft" data-delay=".8s">Contact Us</a>
+                                        <a href="contactus" class="btn hero-btn" data-animation="fadeInLeft" data-delay=".8s">Contact Us</a>
                                     </div>
                                 </div>
                             </div>
@@ -46,7 +46,7 @@
                             </div>
                             <p>Pomilly East African Limited is an environmental sustainability and acoustic services company that aims at improving basic environmental standards through biotechnology and recycling food wastes.</p>
 
-                            <a href="aboutus.php" class="btn">More About Us</a>
+                            <a href="aboutus" class="btn">More About Us</a>
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">

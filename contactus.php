@@ -25,7 +25,7 @@
                     </div>
                     <div class="col-lg-8">
                         <form class="form-contact contact_form"
-                            action="http://eckonsolutions.co.ke/pomilly/contact_process.php" method="post"
+                            action="#" method="post"
                             id="contactForm" novalidate="novalidate">
                             <div class="row">
                                 <div class="col-12">
