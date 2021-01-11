@@ -1,4 +1,4 @@
-<?php include "includes/hader.php"; ?>
+<?php include "includes/header.php"; ?>
     <main>
         <!--? Hero Start -->
         <div class="slider-area ">
