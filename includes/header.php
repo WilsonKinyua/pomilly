@@ -13,7 +13,7 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>ENVIRONMENTAL, OCCUPATIONAL SAFETY & PUBLIC HEALTH CONSULTANCY | Pomilly East African Limited</title>
-    <meta name="description" content="Developed by Developer Wilson">
+    <meta name="description" content="ENVIRONMENTAL, OCCUPATIONAL SAFETY & PUBLIC HEALTH CONSULTANCY | Pomilly East African Limited">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="manifest" href="site.php">
     <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
@@ -91,7 +91,7 @@
                         <div class="menu-wrapper">
                             <!-- Logo -->
                             <div class="logo logo2 d-block d-lg-none">
-                                <a href="index-2.php"><img src="assets/img/PomillyLogo2.jpg" width="180px"
+                                <a href="index.php"><img src="assets/img/PomillyLogo2.jpg" width="180px"
                                         height="98px" alt=""></a>
                             </div>
                             <!-- Main-menu -->
