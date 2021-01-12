@@ -10,8 +10,8 @@ if(isset($_POST['send_mess'])) {
     $phone      = trim($_POST['phone']);
     $comment    = trim($_POST['comment']);
 
-    $conn->query("INSERT INTO `comments` (`name`,`email`,`phone`,`comment`,`post`,`status`) VALUES ('$name','$email','$phone','$comment','food-security','0')") or die($conn->error);
-    header("Location: food-security");
+    $conn->query("INSERT INTO `comments` (`name`,`email`,`phone`,`comment`,`post`,`status`) VALUES ('$name','$email','$phone','$comment','food-insecurity','0')") or die($conn->error);
+    header("Location: food-insecurity");
 }
 
 ?>
@@ -92,6 +92,36 @@ if(isset($_POST['send_mess'])) {
 
                     </div>
                 </div>
+                <div class="comment-form">
+                <h4>Leave a Comment</h4>
+                <form class="form-contact comment_form" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="POST" enctype="multipart/form-data" id="commentForm">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="form-group">
+                                <textarea class="form-control w-100" name="comment" id="comment" cols="30" rows="9" placeholder="Write Comment" required></textarea>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <input class="form-control" name="name" id="name" type="text" placeholder="Name" required>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <input class="form-control" name="email" id="email" type="email" placeholder="Email" required>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="form-group">
+                                <input class="form-control" name="phone" id="website" type="number" placeholder="Phone" required>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" name="send_mess" class="button button-contactForm btn_1 boxed-btn">Send Message</button>
+                    </div>
+                </form>
+            </div>
             </div>
         </div>
         <!-- About Details End -->
