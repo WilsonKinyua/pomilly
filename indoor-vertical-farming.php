@@ -11,7 +11,8 @@ if (isset($_POST['send_mess'])) {
     $comment    = trim($_POST['comment']);
 
     $conn->query("INSERT INTO `comments` (`name`,`email`,`phone`,`comment`,`post`,`status`) VALUES ('$name','$email','$phone','$comment','indoor-vertical-farming','0')") or die($conn->error);
-    header("Location: indoor-vertical-farming");
+    setcookie("success", true, time()+3);
+    header("location: indoor-vertical-farming");
 }
 
 
@@ -137,6 +138,28 @@ if (isset($_POST['send_mess'])) {
             </div>
             <div class="comment-form">
                 <h4>Leave a Comment</h4>
+                <div class="row">
+                    <div class="col-md-12">
+
+                        <?php if(isset($_COOKIE['success']) and $_COOKIE['success']) {?>
+                            <div class="container-fluid">
+
+                                <div class="row">
+                                    <div class="col-md-12 pt-4 text-center">
+                                        <div id="notif" class="alert alert-success text-center alert-dismissible fade show mt-4" role="alert">
+                                            <strong>Your Comment Was Submitted Successfully. </strong>
+                                            <button type="button" class="close text-white" data-dismiss="alert" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        <?php } ?>
+                    </div>
+                </div>
                 <form class="form-contact comment_form" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="POST" enctype="multipart/form-data" id="commentForm">
                     <div class="row">
                         <div class="col-12">
