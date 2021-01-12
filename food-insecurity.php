@@ -1,4 +1,20 @@
-<?php include "includes/header.php"; ?>
+<?php include "includes/header.php";
+
+include "config/database.php";
+
+
+if(isset($_POST['send_mess'])) {
+
+    $name       = trim($_POST['name']);
+    $email      = trim($_POST['email']);
+    $phone      = trim($_POST['phone']);
+    $comment    = trim($_POST['comment']);
+
+    $conn->query("INSERT INTO `comments` (`name`,`email`,`phone`,`comment`,`post`,`status`) VALUES ('$name','$email','$phone','$comment','food-security','0')") or die($conn->error);
+    header("Location: food-security");
+}
+
+?>
 
 <main>
     <!--? Hero Start -->

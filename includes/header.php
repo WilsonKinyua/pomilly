@@ -1,3 +1,10 @@
+<?php
+
+    ob_start();
+    session_start();
+
+?>
+
 <!doctype html>
 <html class="no-js" lang="zxx">
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
