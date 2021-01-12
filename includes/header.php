@@ -61,10 +61,10 @@
                     <!-- Left Social -->
                     <div class="header-left-social">
                         <ul class="header-social">
-                            <li><a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a></li>
-                            <li><a href="https://www.facebook.com/" target="_blank"><i
+                            <li><a href="https://twitter.com/EastPomilly" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="https://www.facebook.com/pomilly.co.ke" target="_blank"><i
                                         class="fab fa-facebook-f"></i></a></li>
-                            <li><a href="https://www.linkedin.com/" target="_blank"><i
+                            <li><a href="https://www.linkedin.com/in/pomilly-east-african-company/" target="_blank"><i
                                         class="fab fa-linkedin-in"></i></a></li>
                             <li> <a href="https://instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
                             </li>

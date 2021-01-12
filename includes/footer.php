@@ -57,8 +57,8 @@
                                             Email
                                         </a> -->
                                     <div class="footer-social mt-3">
-                                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                        <a href="#"><i class="fab fa-twitter"></i></a>
+                                        <a href="https://www.facebook.com/pomilly.co.ke"><i class="fab fa-facebook-f"></i></a>
+                                        <a href="https://twitter.com/EastPomilly"><i class="fab fa-twitter"></i></a>
                                         <a href="#"><i class="fab fa-instagram"></i></a>
                                         <a href="#"><i class="fab fa-youtube"></i></a>
                                         <a style="background: rgb(136, 136, 50);" href="#"><i class="fab fa-linkedin"></i></a>
