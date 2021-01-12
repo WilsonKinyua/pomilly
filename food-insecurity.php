@@ -9,9 +9,10 @@ if (isset($_POST['send_mess'])) {
     $email      = trim($_POST['email']);
     $phone      = trim($_POST['phone']);
     $comment    = trim($_POST['comment']);
+    $date       = date('Y-m-d H:i:s');
 
-    $conn->query("INSERT INTO `comments` (`name`,`email`,`phone`,`comment`,`post`,`status`) VALUES ('$name','$email','$phone','$comment','food-insecurity','0')") or die($conn->error);
-    setcookie("success", true, time()+3);
+    $conn->query("INSERT INTO `comments` (`name`,`email`,`phone`,`comment`,`post`,`status`,`created_at`) VALUES ('$name','$email','$phone','$comment','food-insecurity','0','$date')") or die($conn->error);
+    setcookie("success", true, time() + 3);
     header("location: food-insecurity");
 }
 
@@ -93,12 +94,42 @@ if (isset($_POST['send_mess'])) {
 
                 </div>
             </div>
+            <div class="comments-area">
+                <h4>Comments</h4>
+                <div class="comment-list">
+                    <div class="single-comment justify-content-between d-flex">
+                        <div class="user justify-content-between d-flex">
+                            <div class="thumb">
+                                <img src="assets/img/comment/comment_1.png" alt="">
+                            </div>
+                            <div class="desc">
+                                <p class="comment">
+                                    Multiply sea night grass fourth day sea lesser rule open subdue female fill which them
+                                    Blessed, give fill lesser bearing multiply sea night grass fourth day sea lesser
+                                </p>
+                                <div class="d-flex justify-content-between">
+                                    <div class="d-flex align-items-center">
+                                        <h5>
+                                            Emilly Blunt
+                                        </h5>
+                                        <p class="date">December 4, 2017 at 3:12 pm </p>
+                                    </div>
+                                    <!-- <div class="reply-btn">
+                                        <a href="#" class="btn-reply text-uppercase">reply</a>
+                                    </div> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
             <div class="comment-form">
                 <h4>Leave a Comment</h4>
                 <div class="row">
                     <div class="col-md-12">
 
-                        <?php if(isset($_COOKIE['success']) and $_COOKIE['success']) {?>
+                        <?php if (isset($_COOKIE['success']) and $_COOKIE['success']) { ?>
                             <div class="container-fluid">
 
                                 <div class="row">

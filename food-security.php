@@ -10,8 +10,9 @@ if (isset($_POST['send_mess'])) {
     $email      = trim($_POST['email']);
     $phone      = trim($_POST['phone']);
     $comment    = trim($_POST['comment']);
+    $date       = date('Y-m-d H:i:s');
 
-    $conn->query("INSERT INTO `comments` (`name`,`email`,`phone`,`comment`,`post`,`status`) VALUES ('$name','$email','$phone','$comment','food-security','0')") or die($conn->error);
+    $conn->query("INSERT INTO `comments` (`name`,`email`,`phone`,`comment`,`post`,`status`,`created_at`) VALUES ('$name','$email','$phone','$comment','food-security','0','$date')") or die($conn->error);
     setcookie("success", true, time()+3);
     header("location: food-security");
 }
