@@ -13,7 +13,7 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>ENVIRONMENTAL, OCCUPATIONAL SAFETY & PUBLIC HEALTH CONSULTANCY | Pomilly East African Limited</title>
-    <meta name="description" content="ENVIRONMENTAL, OCCUPATIONAL SAFETY & PUBLIC HEALTH CONSULTANCY | Pomilly East African Limited">
+    <meta name="description" content="Food is too good to waste">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="manifest" href="site">
     <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
