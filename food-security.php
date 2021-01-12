@@ -1,10 +1,10 @@
 <?php
 
-include "includes/header.php"; 
+include "includes/header.php";
 include "config/database.php";
 
 
-if(isset($_POST['send_mess'])) {
+if (isset($_POST['send_mess'])) {
 
     $name       = trim($_POST['name']);
     $email      = trim($_POST['email']);
@@ -116,7 +116,7 @@ if(isset($_POST['send_mess'])) {
             </div>
             <div class="comment-form">
                 <h4>Leave a Comment</h4>
-                <form class="form-contact comment_form" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="POST" enctype="multipart/form-data" id="commentForm">
+                <form class="form-contact comment_form" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="POST" enctype="multipart/form-data" id="commentForm">
                     <div class="row">
                         <div class="col-12">
                             <div class="form-group">
