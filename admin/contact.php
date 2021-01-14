@@ -92,16 +92,16 @@
               <span class="menu-title">Dashboard</span>
             </a>
           </li>
-          <li class="nav-item active">
+          <li class="nav-item">
               <a class="nav-link" href="users_list">
                   <i class=" mdi mdi-account menu-icon"></i>
                   <span class="menu-title">Users</span>
               </a>
           </li>
           <li class="nav-item active">
-              <a class="nav-link" href="home_page">
+              <a class="nav-link" href="contact">
                   <i class=" mdi mdi-home menu-icon"></i>
-                  <span class="menu-title">Home Page</span>
+                  <span class="menu-title">Contact Page</span>
               </a>
           </li>
           <li class="nav-item">
@@ -163,72 +163,10 @@
       <div class="main-panel">        
         <div class="content-wrapper">
           <div class="row">
-            <div class="col-md-6 grid-margin stretch-card">
+          <div class="col-lg-12 grid-margin stretch-card">
               <div class="card">
                 <div class="card-body">
-                <div class="col-md-12">
-                  <?php if(isset($_COOKIE['success_user']) and $_COOKIE['success_user']) {?>
-                      <div class="container-fluid">
-                          <div class="row">
-                              <div class="col-md-12 pt-4 text-center">
-                                  <div id="notif" class="alert alert-success text-center alert-dismissible fade show mt-4" role="alert">
-                                      <strong>User Created Successfully. </strong>
-                                      <button type="button" class="close text-white" data-dismiss="alert" aria-label="Close">
-                                          <span aria-hidden="true">&times;</span>
-                                      </button>
-                                  </div>
-                              </div>
-                          </div>
-                      </div>
-
-                  <?php } ?>
-                  </div>
-
-                  <h4 class="card-title">Create User</h4>
-                  <style>
-                    form span {
-                      font-size: 13px;
-                    }
-                  </style>
-                  <p class="card-description">
-                    Required Fields <span style="color: red;">*</span>
-                  </p>
-                  <form class="forms-sample" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="POST" enctype="multipart/form-data">
-                    <div class="form-group">
-                      <label for="exampleInputUsername1">Username <span style="color: red;">*</span></label>
-                      <input type="text" name="username" class="form-control" id="exampleInputUsername1" placeholder="Username">
-                      <span style="color: red;"><?php echo $username_err; ?></span>
-                    </div>
-                    <div class="form-group">
-                      <label for="exampleInputEmail1">Email address <span style="color: red;">*</span></label>
-                      <input type="email" name="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
-                      <span style="color: red;"><?php echo $email_err; ?></span>
-                    </div>
-                    <div class="form-group">
-                      <label for="exampleInputEmail1">Phone Number <span style="color: red;">*</span></label>
-                      <input type="number" name="phone" class="form-control" id="exampleInputEmail1" placeholder="Phone Number">
-                      <span style="color: red;"><?php echo $mobile_err; ?></span>
-                    </div>
-                    <div class="form-group">
-                      <label for="exampleInputPassword1">Password <span style="color: red;">*</span></label>
-                      <input type="password" name="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-                      <span style="color: red;"><?php echo $pass_err; ?></span>
-                    </div>
-                    <div class="form-group">
-                      <label for="exampleInputConfirmPassword1">Confirm Password <span style="color: red;">*</span></label>
-                      <input type="password" name="c_password" class="form-control" id="exampleInputConfirmPassword1" placeholder="Password">
-                      <span style="color: red;"><?php echo $cpass_err; ?></span>
-                    </div>
-                    <button type="submit" name="create_user" class="btn btn-primary mr-2">Create User</button>
-                    <button class="btn btn-light">Cancel</button>
-                  </form>
-                </div>
-              </div>
-            </div>
-          <div class="col-lg-6 grid-margin stretch-card">
-              <div class="card">
-                <div class="card-body">
-                  <h4 class="card-title">Users</h4>
+                  <h4 class="card-title">Contact Messages</h4>
                   <p class="card-description">
                   </p>
                   <div class="table-responsive">

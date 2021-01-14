@@ -6,77 +6,80 @@
   $username_err = $phone_err = $email_err  =  $mobile_err = $cpass_err = $pass_err = '';
   $valid = true;
 
-  if(isset($_POST['create_user'])) {
+  if (isset($_GET['user'])) {
+        $id = $_GET['user'];
+        $user = $conn->query("SELECT * FROM users WHERE id='$id' ") or die($conn->error);
+        if (mysqli_num_rows($user) == 1) {
+            $row_user_update = $user->fetch_array();
+            $username = $row_user_update['username'];
+            $phone = $row_user_update['phone'];
+            $email = $row_user_update['email'];
+        
+        }
+}
+
+if(isset($_POST['update_user'])) {
 
     $phone      = trim($_POST['phone']);
     $email      = trim($_POST['email']);
     $username   = trim($_POST['username']);
     $password   = trim($_POST['password']);
     $cpassword  = trim($_POST['c_password']);
+    $user_id    = trim($_POST['user_id']);
 
-    if(!is_numeric($phone)){
-      $mobile_err = "Please valid mobile number.";
-      $valid = false;
-    }
+    // if(!is_numeric($phone)){
+    //   $mobile_err = "Please valid mobile number.";
+    //   $valid = false;
+    // }
 
-    if(strlen($phone) < 10){
-      $mobile_err = "Phone number must have atleast 10 characters.";
-      $valid = false;
-    }
+    // if(strlen($phone) < 10){
+    //   $mobile_err = "Phone number must have atleast 10 characters.";
+    //   $valid = false;
+    // }
 
-    if(empty($username)) {
-
-      $username_err = "Please enter a unique username.";
-      $valid = false;
-      
-    }
   
-    if(empty($email)) {
+    // if(empty($email)) {
 
-      $email_err = "Please enter a valid email.";
-      $valid = false;
+    //   $email_err = "Please enter a valid email.";
+    //   $valid = false;
       
-    }
+    // }
 
-    $res = $conn->query("SELECT id FROM users WHERE username='$username' ") or die($conn->error);
-    if(mysqli_num_rows($res) >= 1){
-      $username_err = "Username is already taken.";
-      $valid = false;
-    }
-  
-    if(empty($password)){
-      $pass_err = "Please enter a strong password.";
-      $valid = false;
-    }
+    // if(empty($password)){
+    //   $pass_err = "Please enter a strong password.";
+    //   $valid = false;
+    // }
 
-    if(strlen($password) < 6){
-      $pass_err = "Password must have atleast 6 characters.";
-      $valid = false;
-    }
+    // if(strlen($password) < 6){
+    //   $pass_err = "Password must have atleast 6 characters.";
+    //   $valid = false;
+    // }
 
-    if(empty($cpassword)){
-      $cpass_err = "Please confirm your password.";
-      $valid = false;
-    }else{
-      if($password != $cpassword){
-        $cpass_err = 'Password did not match.';
-        $valid = false;
-      }
-    }
+    // if(empty($cpassword)){
+    //   $cpass_err = "Please confirm your password.";
+    //   $valid = false;
+    // }else{
+    //   if($password != $cpassword){
+    //     $cpass_err = 'Password did not match.';
+    //     $valid = false;
+    //   }
+    // }
 
-    if ($valid) {
-      $password = md5($password);
-      $conn->query("INSERT INTO `users`(`username`, `phone`, `password`, `email`) VALUES ('$username','$phone','$password','$email') ") or die($conn->error);
-      setcookie("success_user", true, time()+3);
-      header('location: users_list');
-    }
+    // if ($valid) {
+        $password = md5($password);
+        $conn->query(
+            "UPDATE `users` 
+            SET `username`='$username', 
+            `phone`='$phone',  
+            `email`='$email',
+            `password`='$password', 
+            WHERE id='$user_id'
+            "
+        ) or die($conn->error);
+      setcookie("success_user_update", true, time()+3);
+      header('location: users_list.php');
+    // }
 
-  }
-
-  if (isset($_GET['user_delete'])) {
-    $id = $_GET['user_delete'];
-    $conn->query("DELETE FROM users WHERE id='$id' ") or die($conn->error);
-    header('location: users_list');
   }
 
 
@@ -97,13 +100,7 @@
                   <i class=" mdi mdi-account menu-icon"></i>
                   <span class="menu-title">Users</span>
               </a>
-          </li>
-          <li class="nav-item active">
-              <a class="nav-link" href="home_page">
-                  <i class=" mdi mdi-home menu-icon"></i>
-                  <span class="menu-title">Home Page</span>
-              </a>
-          </li>
+            </li>
           <li class="nav-item">
             <a class="nav-link" data-toggle="collapse" href="#ui-basic" aria-expanded="false" aria-controls="ui-basic">
               <i class="mdi mdi-circle-outline menu-icon"></i>
@@ -163,16 +160,19 @@
       <div class="main-panel">        
         <div class="content-wrapper">
           <div class="row">
+          <div class="col-lg-2">
+              
+              </div>
             <div class="col-md-6 grid-margin stretch-card">
               <div class="card">
                 <div class="card-body">
                 <div class="col-md-12">
-                  <?php if(isset($_COOKIE['success_user']) and $_COOKIE['success_user']) {?>
+                  <?php if(isset($_COOKIE['success_user_update']) and $_COOKIE['success_user_update']) {?>
                       <div class="container-fluid">
                           <div class="row">
                               <div class="col-md-12 pt-4 text-center">
                                   <div id="notif" class="alert alert-success text-center alert-dismissible fade show mt-4" role="alert">
-                                      <strong>User Created Successfully. </strong>
+                                      <strong>User Updated Successfully. </strong>
                                       <button type="button" class="close text-white" data-dismiss="alert" aria-label="Close">
                                           <span aria-hidden="true">&times;</span>
                                       </button>
@@ -184,7 +184,7 @@
                   <?php } ?>
                   </div>
 
-                  <h4 class="card-title">Create User</h4>
+                  <h4 class="card-title">Update User</h4>
                   <style>
                     form span {
                       font-size: 13px;
@@ -196,17 +196,18 @@
                   <form class="forms-sample" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="POST" enctype="multipart/form-data">
                     <div class="form-group">
                       <label for="exampleInputUsername1">Username <span style="color: red;">*</span></label>
-                      <input type="text" name="username" class="form-control" id="exampleInputUsername1" placeholder="Username">
+                      <input type="text" name="username" class="form-control" disabled id="exampleInputUsername1" placeholder="Username" value="<?php echo $row_user_update['username'] ?>">
                       <span style="color: red;"><?php echo $username_err; ?></span>
                     </div>
+                    <input type="hidden" name="user_id" value="<?php echo $row_user_update['id'] ?>">
                     <div class="form-group">
                       <label for="exampleInputEmail1">Email address <span style="color: red;">*</span></label>
-                      <input type="email" name="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                      <input type="email" name="email" class="form-control" id="exampleInputEmail1" placeholder="Email" value="<?php echo $row_user_update['email'] ?>">
                       <span style="color: red;"><?php echo $email_err; ?></span>
                     </div>
                     <div class="form-group">
                       <label for="exampleInputEmail1">Phone Number <span style="color: red;">*</span></label>
-                      <input type="number" name="phone" class="form-control" id="exampleInputEmail1" placeholder="Phone Number">
+                      <input type="number" name="phone" class="form-control" id="exampleInputEmail1" placeholder="Phone Number" value="<?php echo $row_user_update['phone'] ?>">
                       <span style="color: red;"><?php echo $mobile_err; ?></span>
                     </div>
                     <div class="form-group">
@@ -219,53 +220,14 @@
                       <input type="password" name="c_password" class="form-control" id="exampleInputConfirmPassword1" placeholder="Password">
                       <span style="color: red;"><?php echo $cpass_err; ?></span>
                     </div>
-                    <button type="submit" name="create_user" class="btn btn-primary mr-2">Create User</button>
-                    <button class="btn btn-light">Cancel</button>
+                    <button type="submit" name="update_user" class="btn btn-primary mr-2">Update User</button>
+                    <a href="users_list" class="btn btn-light">Cancel</a>
                   </form>
                 </div>
               </div>
             </div>
-          <div class="col-lg-6 grid-margin stretch-card">
-              <div class="card">
-                <div class="card-body">
-                  <h4 class="card-title">Users</h4>
-                  <p class="card-description">
-                  </p>
-                  <div class="table-responsive">
-                    <table class="table table-hover">
-                      <thead>
-                        <tr>
-                          <th>Username</th>
-                          <th>Email</th>
-                          <th>Phone</th>
-                          <th>Action</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <?php 
-                        $results = $conn->query("SELECT * FROM users") or die($conn->error);
-
-                        while($row = $results->fetch_assoc()) :
-
-                          ?>
-                          <tr>
-                            <td><?php echo $row['username']; ?></td>
-                            <td><?php echo $row['email']; ?></td>
-                            <td><?php echo $row['phone']; ?></td>
-                           <td>
-                             <a href="users_list.php?user_delete=<?php echo $row['id']; ?>" class="btn m-2 btn-xs btn-danger delete_user_button"><i class="fas fa-trash-alt"></i> Delete</button>
-                             <a style="color: white;" class="btn m-2 btn-xs btn-secondary"><i class="fas fa-pen-alt"></i>Update</button>
-                             <!-- user_update.php?user=<?php //echo $row['id']; ?> -->
-                           </td>
-                         </tr>
-
-                       <?php endwhile; ?>
-
-                      </tbody>
-                    </table>
-                  </div>
-                </div>
-              </div>
+          <div class="col-lg-2">
+              
             </div>
          
           </div>
