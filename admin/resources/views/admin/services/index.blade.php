@@ -26,28 +26,17 @@
                             {{ trans('cruds.service.fields.id') }}
                         </th>
                         <th>
-                            {{ trans('cruds.service.fields.service_name') }}
+                            {{ trans('cruds.service.fields.title') }}
                         </th>
                         <th>
-                            {{ trans('cruds.service.fields.photo_video') }}
+                            {{ trans('cruds.service.fields.description') }}
+                        </th>
+                        <th>
+                            {{ trans('cruds.service.fields.photos_videos') }}
                         </th>
                         <th>
                             &nbsp;
                         </th>
-                    </tr>
-                    <tr>
-                        <td>
-                        </td>
-                        <td>
-                            <input class="search" type="text" placeholder="{{ trans('global.search') }}">
-                        </td>
-                        <td>
-                            <input class="search" type="text" placeholder="{{ trans('global.search') }}">
-                        </td>
-                        <td>
-                        </td>
-                        <td>
-                        </td>
                     </tr>
                 </thead>
                 <tbody>
@@ -60,10 +49,13 @@
                                 {{ $service->id ?? '' }}
                             </td>
                             <td>
-                                {{ $service->service_name ?? '' }}
+                                {{ $service->title ?? '' }}
                             </td>
                             <td>
-                                @foreach($service->photo_video as $key => $media)
+                                {{ $service->description ?? '' }}
+                            </td>
+                            <td>
+                                @foreach($service->photos_videos as $key => $media)
                                     <a href="{{ $media->getUrl() }}" target="_blank">
                                         {{ trans('global.view_file') }}
                                     </a>
@@ -140,7 +132,7 @@
 
   $.extend(true, $.fn.dataTable.defaults, {
     orderCellsTop: true,
-    order: [[ 1, 'desc' ]],
+    order: [[ 1, 'asc' ]],
     pageLength: 100,
   });
   let table = $('.datatable-Service:not(.ajaxTable)').DataTable({ buttons: dtButtons })
@@ -149,27 +141,6 @@
           .columns.adjust();
   });
   
-let visibleColumnsIndexes = null;
-$('.datatable thead').on('input', '.search', function () {
-      let strict = $(this).attr('strict') || false
-      let value = strict && this.value ? "^" + this.value + "$" : this.value
-
-      let index = $(this).parent().index()
-      if (visibleColumnsIndexes !== null) {
-        index = visibleColumnsIndexes[index]
-      }
-
-      table
-        .column(index)
-        .search(value, strict)
-        .draw()
-  });
-table.on('column-visibility.dt', function(e, settings, column, state) {
-      visibleColumnsIndexes = []
-      table.columns(":visible").every(function(colIdx) {
-          visibleColumnsIndexes.push(colIdx);
-      });
-  })
 })
 
 </script>

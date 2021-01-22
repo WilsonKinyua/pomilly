@@ -27,8 +27,8 @@ class ServicesApiController extends Controller
     {
         $service = Service::create($request->all());
 
-        if ($request->input('photo_video', false)) {
-            $service->addMedia(storage_path('tmp/uploads/' . $request->input('photo_video')))->toMediaCollection('photo_video');
+        if ($request->input('photos_videos', false)) {
+            $service->addMedia(storage_path('tmp/uploads/' . $request->input('photos_videos')))->toMediaCollection('photos_videos');
         }
 
         return (new ServiceResource($service))
@@ -47,16 +47,16 @@ class ServicesApiController extends Controller
     {
         $service->update($request->all());
 
-        if ($request->input('photo_video', false)) {
-            if (!$service->photo_video || $request->input('photo_video') !== $service->photo_video->file_name) {
-                if ($service->photo_video) {
-                    $service->photo_video->delete();
+        if ($request->input('photos_videos', false)) {
+            if (!$service->photos_videos || $request->input('photos_videos') !== $service->photos_videos->file_name) {
+                if ($service->photos_videos) {
+                    $service->photos_videos->delete();
                 }
 
-                $service->addMedia(storage_path('tmp/uploads/' . $request->input('photo_video')))->toMediaCollection('photo_video');
+                $service->addMedia(storage_path('tmp/uploads/' . $request->input('photos_videos')))->toMediaCollection('photos_videos');
             }
-        } elseif ($service->photo_video) {
-            $service->photo_video->delete();
+        } elseif ($service->photos_videos) {
+            $service->photos_videos->delete();
         }
 
         return (new ServiceResource($service))

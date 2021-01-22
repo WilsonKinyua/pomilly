@@ -25,10 +25,10 @@
                     </tr>
                     <tr>
                         <th>
-                            {{ trans('cruds.service.fields.service_name') }}
+                            {{ trans('cruds.service.fields.title') }}
                         </th>
                         <td>
-                            {{ $service->service_name }}
+                            {{ $service->title }}
                         </td>
                     </tr>
                     <tr>
@@ -36,15 +36,15 @@
                             {{ trans('cruds.service.fields.description') }}
                         </th>
                         <td>
-                            {!! $service->description !!}
+                            {{ $service->description }}
                         </td>
                     </tr>
                     <tr>
                         <th>
-                            {{ trans('cruds.service.fields.photo_video') }}
+                            {{ trans('cruds.service.fields.photos_videos') }}
                         </th>
                         <td>
-                            @foreach($service->photo_video as $key => $media)
+                            @foreach($service->photos_videos as $key => $media)
                                 <a href="{{ $media->getUrl() }}" target="_blank">
                                     {{ trans('global.view_file') }}
                                 </a>

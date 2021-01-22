@@ -1,5 +1,5 @@
 <?php
 
 return [
-    'site_title' => 'pomilly',
+    'site_title' => 'Pomilly Admin Dashboard',
 ];

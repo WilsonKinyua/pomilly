@@ -37,8 +37,8 @@ class ServicesController extends Controller
     {
         $service = Service::create($request->all());
 
-        foreach ($request->input('photo_video', []) as $file) {
-            $service->addMedia(storage_path('tmp/uploads/' . $file))->toMediaCollection('photo_video');
+        foreach ($request->input('photos_videos', []) as $file) {
+            $service->addMedia(storage_path('tmp/uploads/' . $file))->toMediaCollection('photos_videos');
         }
 
         if ($media = $request->input('ck-media', false)) {
@@ -59,19 +59,19 @@ class ServicesController extends Controller
     {
         $service->update($request->all());
 
-        if (count($service->photo_video) > 0) {
-            foreach ($service->photo_video as $media) {
-                if (!in_array($media->file_name, $request->input('photo_video', []))) {
+        if (count($service->photos_videos) > 0) {
+            foreach ($service->photos_videos as $media) {
+                if (!in_array($media->file_name, $request->input('photos_videos', []))) {
                     $media->delete();
                 }
             }
         }
 
-        $media = $service->photo_video->pluck('file_name')->toArray();
+        $media = $service->photos_videos->pluck('file_name')->toArray();
 
-        foreach ($request->input('photo_video', []) as $file) {
+        foreach ($request->input('photos_videos', []) as $file) {
             if (count($media) === 0 || !in_array($file, $media)) {
-                $service->addMedia(storage_path('tmp/uploads/' . $file))->toMediaCollection('photo_video');
+                $service->addMedia(storage_path('tmp/uploads/' . $file))->toMediaCollection('photos_videos');
             }
         }
 

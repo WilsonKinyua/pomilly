@@ -17,7 +17,7 @@ class Blog extends Model implements HasMedia
     public $table = 'blogs';
 
     protected $appends = [
-        'blog_image',
+        'photo',
     ];
 
     protected $dates = [
@@ -27,7 +27,7 @@ class Blog extends Model implements HasMedia
     ];
 
     protected $fillable = [
-        'blog_title',
+        'title',
         'description',
         'created_at',
         'updated_at',
@@ -45,9 +45,9 @@ class Blog extends Model implements HasMedia
         $this->addMediaConversion('preview')->fit('crop', 120, 120);
     }
 
-    public function getBlogImageAttribute()
+    public function getPhotoAttribute()
     {
-        $file = $this->getMedia('blog_image')->last();
+        $file = $this->getMedia('photo')->last();
 
         if ($file) {
             $file->url       = $file->getUrl();

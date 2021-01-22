@@ -25,10 +25,10 @@
                     </tr>
                     <tr>
                         <th>
-                            {{ trans('cruds.blog.fields.blog_title') }}
+                            {{ trans('cruds.blog.fields.title') }}
                         </th>
                         <td>
-                            {{ $blog->blog_title }}
+                            {{ $blog->title }}
                         </td>
                     </tr>
                     <tr>
@@ -41,12 +41,12 @@
                     </tr>
                     <tr>
                         <th>
-                            {{ trans('cruds.blog.fields.blog_image') }}
+                            {{ trans('cruds.blog.fields.photo') }}
                         </th>
                         <td>
-                            @if($blog->blog_image)
-                                <a href="{{ $blog->blog_image->getUrl() }}" target="_blank" style="display: inline-block">
-                                    <img src="{{ $blog->blog_image->getUrl('thumb') }}">
+                            @if($blog->photo)
+                                <a href="{{ $blog->photo->getUrl() }}" target="_blank" style="display: inline-block">
+                                    <img src="{{ $blog->photo->getUrl('thumb') }}">
                                 </a>
                             @endif
                         </td>

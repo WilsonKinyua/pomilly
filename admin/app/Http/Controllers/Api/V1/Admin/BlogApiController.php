@@ -27,8 +27,8 @@ class BlogApiController extends Controller
     {
         $blog = Blog::create($request->all());
 
-        if ($request->input('blog_image', false)) {
-            $blog->addMedia(storage_path('tmp/uploads/' . $request->input('blog_image')))->toMediaCollection('blog_image');
+        if ($request->input('photo', false)) {
+            $blog->addMedia(storage_path('tmp/uploads/' . $request->input('photo')))->toMediaCollection('photo');
         }
 
         return (new BlogResource($blog))
@@ -47,16 +47,16 @@ class BlogApiController extends Controller
     {
         $blog->update($request->all());
 
-        if ($request->input('blog_image', false)) {
-            if (!$blog->blog_image || $request->input('blog_image') !== $blog->blog_image->file_name) {
-                if ($blog->blog_image) {
-                    $blog->blog_image->delete();
+        if ($request->input('photo', false)) {
+            if (!$blog->photo || $request->input('photo') !== $blog->photo->file_name) {
+                if ($blog->photo) {
+                    $blog->photo->delete();
                 }
 
-                $blog->addMedia(storage_path('tmp/uploads/' . $request->input('blog_image')))->toMediaCollection('blog_image');
+                $blog->addMedia(storage_path('tmp/uploads/' . $request->input('photo')))->toMediaCollection('photo');
             }
-        } elseif ($blog->blog_image) {
-            $blog->blog_image->delete();
+        } elseif ($blog->photo) {
+            $blog->photo->delete();
         }
 
         return (new BlogResource($blog))

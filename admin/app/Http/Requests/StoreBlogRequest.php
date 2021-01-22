@@ -17,11 +17,14 @@ class StoreBlogRequest extends FormRequest
     public function rules()
     {
         return [
-            'blog_title' => [
+            'title'       => [
                 'string',
                 'required',
             ],
-            'blog_image' => [
+            'description' => [
+                'required',
+            ],
+            'photo'       => [
                 'required',
             ],
         ];

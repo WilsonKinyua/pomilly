@@ -26,28 +26,14 @@
                             {{ trans('cruds.blog.fields.id') }}
                         </th>
                         <th>
-                            {{ trans('cruds.blog.fields.blog_title') }}
+                            {{ trans('cruds.blog.fields.title') }}
                         </th>
                         <th>
-                            {{ trans('cruds.blog.fields.blog_image') }}
+                            {{ trans('cruds.blog.fields.photo') }}
                         </th>
                         <th>
                             &nbsp;
                         </th>
-                    </tr>
-                    <tr>
-                        <td>
-                        </td>
-                        <td>
-                            <input class="search" type="text" placeholder="{{ trans('global.search') }}">
-                        </td>
-                        <td>
-                            <input class="search" type="text" placeholder="{{ trans('global.search') }}">
-                        </td>
-                        <td>
-                        </td>
-                        <td>
-                        </td>
                     </tr>
                 </thead>
                 <tbody>
@@ -60,12 +46,12 @@
                                 {{ $blog->id ?? '' }}
                             </td>
                             <td>
-                                {{ $blog->blog_title ?? '' }}
+                                {{ $blog->title ?? '' }}
                             </td>
                             <td>
-                                @if($blog->blog_image)
-                                    <a href="{{ $blog->blog_image->getUrl() }}" target="_blank" style="display: inline-block">
-                                        <img src="{{ $blog->blog_image->getUrl('thumb') }}">
+                                @if($blog->photo)
+                                    <a href="{{ $blog->photo->getUrl() }}" target="_blank" style="display: inline-block">
+                                        <img src="{{ $blog->photo->getUrl('thumb') }}">
                                     </a>
                                 @endif
                             </td>
@@ -140,7 +126,7 @@
 
   $.extend(true, $.fn.dataTable.defaults, {
     orderCellsTop: true,
-    order: [[ 1, 'desc' ]],
+    order: [[ 1, 'asc' ]],
     pageLength: 100,
   });
   let table = $('.datatable-Blog:not(.ajaxTable)').DataTable({ buttons: dtButtons })
@@ -149,27 +135,6 @@
           .columns.adjust();
   });
   
-let visibleColumnsIndexes = null;
-$('.datatable thead').on('input', '.search', function () {
-      let strict = $(this).attr('strict') || false
-      let value = strict && this.value ? "^" + this.value + "$" : this.value
-
-      let index = $(this).parent().index()
-      if (visibleColumnsIndexes !== null) {
-        index = visibleColumnsIndexes[index]
-      }
-
-      table
-        .column(index)
-        .search(value, strict)
-        .draw()
-  });
-table.on('column-visibility.dt', function(e, settings, column, state) {
-      visibleColumnsIndexes = []
-      table.columns(":visible").every(function(colIdx) {
-          visibleColumnsIndexes.push(colIdx);
-      });
-  })
 })
 
 </script>

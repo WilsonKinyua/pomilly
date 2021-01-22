@@ -17,7 +17,7 @@ class Service extends Model implements HasMedia
     public $table = 'services';
 
     protected $appends = [
-        'photo_video',
+        'photos_videos',
     ];
 
     protected $dates = [
@@ -27,7 +27,7 @@ class Service extends Model implements HasMedia
     ];
 
     protected $fillable = [
-        'service_name',
+        'title',
         'description',
         'created_at',
         'updated_at',
@@ -45,8 +45,8 @@ class Service extends Model implements HasMedia
         $this->addMediaConversion('preview')->fit('crop', 120, 120);
     }
 
-    public function getPhotoVideoAttribute()
+    public function getPhotosVideosAttribute()
     {
-        return $this->getMedia('photo_video');
+        return $this->getMedia('photos_videos');
     }
 }

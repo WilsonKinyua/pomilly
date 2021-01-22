@@ -1,12 +1,23 @@
 <!DOCTYPE html>
 <html>
 
+    <!--
+        ========================================================================
+            Developed and created by Developer Wilson
+            Reach me through email: wilsonkinyuam@gmail.com for ant question or something
+            Phone Number: +254717255460
+        =======================================================================================
+    -->
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="csrf-token" content="{{ csrf_token() }}">
+    <meta name="description" content="Food is too good to waste">
 
+    <link rel="shortcut icon" href="http://pomilly.com/assets/img/favicon.ico" type="image/x-icon">
+    
     <title>{{ trans('panel.site_title') }}</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" />
     <link href="https://unpkg.com/@coreui/coreui@3.2/dist/css/coreui.min.css" rel="stylesheet" />

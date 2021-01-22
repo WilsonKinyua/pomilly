@@ -17,11 +17,11 @@ class StoreServiceRequest extends FormRequest
     public function rules()
     {
         return [
-            'service_name' => [
+            'title'       => [
                 'string',
                 'required',
             ],
-            'description'  => [
+            'description' => [
                 'required',
             ],
         ];

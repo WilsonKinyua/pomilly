@@ -11,18 +11,18 @@
             @method('PUT')
             @csrf
             <div class="form-group">
-                <label class="required" for="service_name">{{ trans('cruds.service.fields.service_name') }}</label>
-                <input class="form-control {{ $errors->has('service_name') ? 'is-invalid' : '' }}" type="text" name="service_name" id="service_name" value="{{ old('service_name', $service->service_name) }}" required>
-                @if($errors->has('service_name'))
+                <label class="required" for="title">{{ trans('cruds.service.fields.title') }}</label>
+                <input class="form-control {{ $errors->has('title') ? 'is-invalid' : '' }}" type="text" name="title" id="title" value="{{ old('title', $service->title) }}" required>
+                @if($errors->has('title'))
                     <div class="invalid-feedback">
-                        {{ $errors->first('service_name') }}
+                        {{ $errors->first('title') }}
                     </div>
                 @endif
-                <span class="help-block">{{ trans('cruds.service.fields.service_name_helper') }}</span>
+                <span class="help-block">{{ trans('cruds.service.fields.title_helper') }}</span>
             </div>
             <div class="form-group">
-                <label for="description">{{ trans('cruds.service.fields.description') }}</label>
-                <textarea class="form-control ckeditor {{ $errors->has('description') ? 'is-invalid' : '' }}" name="description" id="description">{!! old('description', $service->description) !!}</textarea>
+                <label class="required" for="description">{{ trans('cruds.service.fields.description') }}</label>
+                <textarea class="form-control {{ $errors->has('description') ? 'is-invalid' : '' }}" name="description" id="description" required>{{ old('description', $service->description) }}</textarea>
                 @if($errors->has('description'))
                     <div class="invalid-feedback">
                         {{ $errors->first('description') }}
@@ -31,15 +31,15 @@
                 <span class="help-block">{{ trans('cruds.service.fields.description_helper') }}</span>
             </div>
             <div class="form-group">
-                <label for="photo_video">{{ trans('cruds.service.fields.photo_video') }}</label>
-                <div class="needsclick dropzone {{ $errors->has('photo_video') ? 'is-invalid' : '' }}" id="photo_video-dropzone">
+                <label for="photos_videos">{{ trans('cruds.service.fields.photos_videos') }}</label>
+                <div class="needsclick dropzone {{ $errors->has('photos_videos') ? 'is-invalid' : '' }}" id="photos_videos-dropzone">
                 </div>
-                @if($errors->has('photo_video'))
+                @if($errors->has('photos_videos'))
                     <div class="invalid-feedback">
-                        {{ $errors->first('photo_video') }}
+                        {{ $errors->first('photos_videos') }}
                     </div>
                 @endif
-                <span class="help-block">{{ trans('cruds.service.fields.photo_video_helper') }}</span>
+                <span class="help-block">{{ trans('cruds.service.fields.photos_videos_helper') }}</span>
             </div>
             <div class="form-group">
                 <button class="btn btn-danger" type="submit">
@@ -56,72 +56,8 @@
 
 @section('scripts')
 <script>
-    $(document).ready(function () {
-  function SimpleUploadAdapter(editor) {
-    editor.plugins.get('FileRepository').createUploadAdapter = function(loader) {
-      return {
-        upload: function() {
-          return loader.file
-            .then(function (file) {
-              return new Promise(function(resolve, reject) {
-                // Init request
-                var xhr = new XMLHttpRequest();
-                xhr.open('POST', '/admin/services/ckmedia', true);
-                xhr.setRequestHeader('x-csrf-token', window._token);
-                xhr.setRequestHeader('Accept', 'application/json');
-                xhr.responseType = 'json';
-
-                // Init listeners
-                var genericErrorText = `Couldn't upload file: ${ file.name }.`;
-                xhr.addEventListener('error', function() { reject(genericErrorText) });
-                xhr.addEventListener('abort', function() { reject() });
-                xhr.addEventListener('load', function() {
-                  var response = xhr.response;
-
-                  if (!response || xhr.status !== 201) {
-                    return reject(response && response.message ? `${genericErrorText}\n${xhr.status} ${response.message}` : `${genericErrorText}\n ${xhr.status} ${xhr.statusText}`);
-                  }
-
-                  $('form').append('<input type="hidden" name="ck-media[]" value="' + response.id + '">');
-
-                  resolve({ default: response.url });
-                });
-
-                if (xhr.upload) {
-                  xhr.upload.addEventListener('progress', function(e) {
-                    if (e.lengthComputable) {
-                      loader.uploadTotal = e.total;
-                      loader.uploaded = e.loaded;
-                    }
-                  });
-                }
-
-                // Send request
-                var data = new FormData();
-                data.append('upload', file);
-                data.append('crud_id', '{{ $service->id ?? 0 }}');
-                xhr.send(data);
-              });
-            })
-        }
-      };
-    }
-  }
-
-  var allEditors = document.querySelectorAll('.ckeditor');
-  for (var i = 0; i < allEditors.length; ++i) {
-    ClassicEditor.create(
-      allEditors[i], {
-        extraPlugins: [SimpleUploadAdapter]
-      }
-    );
-  }
-});
-</script>
-
-<script>
-    var uploadedPhotoVideoMap = {}
-Dropzone.options.photoVideoDropzone = {
+    var uploadedPhotosVideosMap = {}
+Dropzone.options.photosVideosDropzone = {
     url: '{{ route('admin.services.storeMedia') }}',
     maxFilesize: 200, // MB
     addRemoveLinks: true,
@@ -132,8 +68,8 @@ Dropzone.options.photoVideoDropzone = {
       size: 200
     },
     success: function (file, response) {
-      $('form').append('<input type="hidden" name="photo_video[]" value="' + response.name + '">')
-      uploadedPhotoVideoMap[file.name] = response.name
+      $('form').append('<input type="hidden" name="photos_videos[]" value="' + response.name + '">')
+      uploadedPhotosVideosMap[file.name] = response.name
     },
     removedfile: function (file) {
       file.previewElement.remove()
@@ -141,19 +77,19 @@ Dropzone.options.photoVideoDropzone = {
       if (typeof file.file_name !== 'undefined') {
         name = file.file_name
       } else {
-        name = uploadedPhotoVideoMap[file.name]
+        name = uploadedPhotosVideosMap[file.name]
       }
-      $('form').find('input[name="photo_video[]"][value="' + name + '"]').remove()
+      $('form').find('input[name="photos_videos[]"][value="' + name + '"]').remove()
     },
     init: function () {
-@if(isset($service) && $service->photo_video)
+@if(isset($service) && $service->photos_videos)
           var files =
-            {!! json_encode($service->photo_video) !!}
+            {!! json_encode($service->photos_videos) !!}
               for (var i in files) {
               var file = files[i]
               this.options.addedfile.call(this, file)
               file.previewElement.classList.add('dz-complete')
-              $('form').append('<input type="hidden" name="photo_video[]" value="' + file.file_name + '">')
+              $('form').append('<input type="hidden" name="photos_videos[]" value="' + file.file_name + '">')
             }
 @endif
     },
