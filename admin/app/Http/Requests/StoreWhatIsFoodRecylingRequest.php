@@ -17,9 +17,6 @@ class StoreWhatIsFoodRecylingRequest extends FormRequest
     public function rules()
     {
         return [
-            'description'     => [
-                'required',
-            ],
             'photos_videos.*' => [
                 'required',
             ],

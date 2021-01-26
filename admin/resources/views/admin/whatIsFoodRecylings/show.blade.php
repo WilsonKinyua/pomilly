@@ -36,11 +36,8 @@
                             {{ trans('cruds.whatIsFoodRecyling.fields.photos_videos') }}
                         </th>
                         <td>
-                            @foreach($whatIsFoodRecyling->photos_videos as $key => $media)
-                                <a href="{{ $media->getUrl() }}" target="_blank">
-                                    {{ trans('global.view_file') }}
-                                </a>
-                            @endforeach
+                            <img style="width:70px; height:60px" src="{{ asset($whatIsFoodRecyling->file ? $whatIsFoodRecyling->file: 'http://placehold.it/400x400') }}" alt="">
+
                         </td>
                     </tr>
                 </tbody>

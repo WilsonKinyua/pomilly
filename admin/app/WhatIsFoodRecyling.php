@@ -28,6 +28,7 @@ class WhatIsFoodRecyling extends Model implements HasMedia
 
     protected $fillable = [
         'description',
+        'file',
         'created_at',
         'updated_at',
         'deleted_at',

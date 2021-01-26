@@ -35,15 +35,18 @@ class WhatIsFoodRecylingController extends Controller
 
     public function store(StoreWhatIsFoodRecylingRequest $request)
     {
-        $whatIsFoodRecyling = WhatIsFoodRecyling::create($request->all());
+        $data = ([
+            "description"       =>$request->description,
+        ]);
 
-        foreach ($request->input('photos_videos', []) as $file) {
-            $whatIsFoodRecyling->addMedia(storage_path('tmp/uploads/' . $file))->toMediaCollection('photos_videos');
+        if($file = $request->file("photo")) {
+
+            $name = time() . $file->getClientOriginalName();
+            $name = $file->move("images/what-is-food-recylings", $name);
+            $data['file'] = $name;
         }
 
-        if ($media = $request->input('ck-media', false)) {
-            Media::whereIn('id', $media)->update(['model_id' => $whatIsFoodRecyling->id]);
-        }
+        $whatIsFoodRecyling = WhatIsFoodRecyling::create($data);
 
         return redirect()->route('admin.what-is-food-recylings.index');
     }
@@ -57,23 +60,18 @@ class WhatIsFoodRecylingController extends Controller
 
     public function update(UpdateWhatIsFoodRecylingRequest $request, WhatIsFoodRecyling $whatIsFoodRecyling)
     {
-        $whatIsFoodRecyling->update($request->all());
+        $data = ([
+            "description"       =>$request->description,
+        ]);
 
-        if (count($whatIsFoodRecyling->photos_videos) > 0) {
-            foreach ($whatIsFoodRecyling->photos_videos as $media) {
-                if (!in_array($media->file_name, $request->input('photos_videos', []))) {
-                    $media->delete();
-                }
-            }
+        if($file = $request->file("photo")) {
+
+            $name = time() . $file->getClientOriginalName();
+            $name = $file->move("images/what-is-food-recylings", $name);
+            $data['file'] = $name;
         }
 
-        $media = $whatIsFoodRecyling->photos_videos->pluck('file_name')->toArray();
-
-        foreach ($request->input('photos_videos', []) as $file) {
-            if (count($media) === 0 || !in_array($file, $media)) {
-                $whatIsFoodRecyling->addMedia(storage_path('tmp/uploads/' . $file))->toMediaCollection('photos_videos');
-            }
-        }
+        $whatIsFoodRecyling->update($data);
 
         return redirect()->route('admin.what-is-food-recylings.index');
     }
