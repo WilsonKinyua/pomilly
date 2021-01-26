@@ -94,7 +94,7 @@
                 <div class="header-bottom header-sticky">
                     <!-- Logo -->
                     <div class="logo d-none d-lg-block">
-                        <a href="index"><img src="{{ asset('assets/img/PomillyLogo2.jpg')}}" width="180px" height="98px"
+                        <a href="{{ route('home.page') }}"><img src="{{ asset('assets/img/PomillyLogo2.jpg')}}" width="180px" height="98px"
                                 alt=""></a>
                     </div>
                     <div class="container">
@@ -108,7 +108,7 @@
                             <div class="main-menu d-none d-lg-block">
                                 <nav>
                                     <ul id="navigation">
-                                        <li><a href="index">HOME</a></li>
+                                        <li><a href="{{ route('home.page') }}">HOME</a></li>
 
                                         <li><a href="#">COMPANY</a>
                                             <ul class="submenu">

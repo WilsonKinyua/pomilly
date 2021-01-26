@@ -16,6 +16,83 @@ class HomePageController extends Controller
         return view('welcome');
     }
 
+    public function about()
+    {
+        return view('company.aboutus');
+    }
+
+
+    public function missionandvision()
+    {
+        return view('company.missionandvision');
+    }
+
+
+    public function corevalues()
+    {
+        return view('company.corevalues');
+    }
+
+
+    public function motto()
+    {
+        return view('company.motto');
+    }
+
+
+    public function ourhistory()
+    {
+        return view('company.ourhistory');
+    }
+
+
+    public function whatisfoodrecycling()
+    {
+        return view('company.whatisfoodrecycling');
+    }
+
+
+    public function whatwedo()
+    {
+        return view('company.whatwedo');
+    }
+
+
+    public function depositfood()
+    {
+        return view('company.depositfood');
+    }
+
+    public function volunteer()
+    {
+        return view('company.volunteer');
+    }
+
+    public function donate()
+    {
+        return view('company.donate');
+    }
+
+    public function whatsnew()
+    {
+        return view('company.whatsnew');
+    }
+
+    public function careers()
+    {
+        return view('company.careers');
+    }
+
+    public function team()
+    {
+        return view('team.team');
+    }
+
+    public function ourgoals()
+    {
+        return view('team.ourgoals');
+    }
+
     /**
      * Show the form for creating a new resource.
      *
