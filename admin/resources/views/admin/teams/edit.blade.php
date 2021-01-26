@@ -40,16 +40,15 @@
                 @endif
                 <span class="help-block">{{ trans('cruds.team.fields.line_of_work_helper') }}</span>
             </div>
-            <div class="form-group">
-                <label class="required" for="photo">{{ trans('cruds.team.fields.photo') }}</label>
-                <div class="needsclick dropzone {{ $errors->has('photo') ? 'is-invalid' : '' }}" id="photo-dropzone">
-                </div>
-                @if($errors->has('photo'))
-                    <div class="invalid-feedback">
-                        {{ $errors->first('photo') }}
+            <div class="form-group row">
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label>Image: <small style="color: red">Please do not upload video format file to avoid server error!!</small></label>
+                        <div class="">
+                            <input type="file" name="photo" id="photo" class="form-control">
+                        </div>
                     </div>
-                @endif
-                <span class="help-block">{{ trans('cruds.team.fields.photo_helper') }}</span>
+                </div>
             </div>
             <div class="form-group">
                 <button class="btn btn-danger" type="submit">

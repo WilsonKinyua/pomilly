@@ -32,7 +32,7 @@
                             {{ trans('cruds.service.fields.description') }}
                         </th>
                         <th>
-                            {{ trans('cruds.service.fields.photos_videos') }}
+                            Photos
                         </th>
                         <th>
                             &nbsp;
@@ -55,11 +55,7 @@
                                 {{ $service->description ?? '' }}
                             </td>
                             <td>
-                                @foreach($service->photos_videos as $key => $media)
-                                    <a href="{{ $media->getUrl() }}" target="_blank">
-                                        {{ trans('global.view_file') }}
-                                    </a>
-                                @endforeach
+                                <img style="width:60px; height:40px" src="{{ asset($service->file ? $service->file: 'http://placehold.it/400x400') }}" alt="">
                             </td>
                             <td>
                                 @can('service_show')
@@ -140,7 +136,7 @@
       $($.fn.dataTable.tables(true)).DataTable()
           .columns.adjust();
   });
-  
+
 })
 
 </script>

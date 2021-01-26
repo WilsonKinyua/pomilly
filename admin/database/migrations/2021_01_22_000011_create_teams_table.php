@@ -13,6 +13,7 @@ class CreateTeamsTable extends Migration
             $table->string('full_name');
             $table->string('professionalism');
             $table->longText('line_of_work');
+            $table->text('file')->nullable();
             $table->timestamps();
             $table->softDeletes();
         });

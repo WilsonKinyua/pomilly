@@ -61,10 +61,8 @@
                                 {{ $team->line_of_work ?? '' }}
                             </td>
                             <td>
-                                @if($team->photo)
-                                    <a href="{{ $team->photo->getUrl() }}" target="_blank" style="display: inline-block">
-                                        <img src="{{ $team->photo->getUrl('thumb') }}">
-                                    </a>
+                                @if($team->file)
+                                    <img style="width:60px; height:40px" src="{{ asset($team->file ? $team->file: 'http://placehold.it/400x400') }}" alt="">
                                 @endif
                             </td>
                             <td>
@@ -146,7 +144,7 @@
       $($.fn.dataTable.tables(true)).DataTable()
           .columns.adjust();
   });
-  
+
 })
 
 </script>

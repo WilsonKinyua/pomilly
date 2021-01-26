@@ -35,16 +35,21 @@ class TeamController extends Controller
 
     public function store(StoreTeamRequest $request)
     {
-        $team = Team::create($request->all());
+        $data = ([
+            "professionalism"       =>$request->professionalism,
+            "full_name"             =>$request->full_name,
+            "line_of_work"          =>$request->line_of_work,
 
-        if ($request->input('photo', false)) {
-            $team->addMedia(storage_path('tmp/uploads/' . $request->input('photo')))->toMediaCollection('photo');
+        ]);
+
+        if($file = $request->file("photo")) {
+
+            $name = time() . $file->getClientOriginalName();
+            $name = $file->move("images/teams", $name);
+            $data['file'] = $name;
         }
 
-        if ($media = $request->input('ck-media', false)) {
-            Media::whereIn('id', $media)->update(['model_id' => $team->id]);
-        }
-
+        $team = Team::create($data);
         return redirect()->route('admin.teams.index');
     }
 
@@ -57,19 +62,21 @@ class TeamController extends Controller
 
     public function update(UpdateTeamRequest $request, Team $team)
     {
-        $team->update($request->all());
+        $data = ([
+            "professionalism"       =>$request->professionalism,
+            "full_name"             =>$request->full_name,
+            "line_of_work"          =>$request->line_of_work,
 
-        if ($request->input('photo', false)) {
-            if (!$team->photo || $request->input('photo') !== $team->photo->file_name) {
-                if ($team->photo) {
-                    $team->photo->delete();
-                }
+        ]);
 
-                $team->addMedia(storage_path('tmp/uploads/' . $request->input('photo')))->toMediaCollection('photo');
-            }
-        } elseif ($team->photo) {
-            $team->photo->delete();
+        if($file = $request->file("photo")) {
+
+            $name = time() . $file->getClientOriginalName();
+            $name = $file->move("images/teams", $name);
+            $data['file'] = $name;
         }
+
+        $team->update($data);
 
         return redirect()->route('admin.teams.index');
     }

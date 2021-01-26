@@ -35,15 +35,19 @@ class ServicesController extends Controller
 
     public function store(StoreServiceRequest $request)
     {
-        $service = Service::create($request->all());
+        $data = ([
+            "title"       =>$request->title,
+            "description" =>$request->description,
+        ]);
 
-        foreach ($request->input('photos_videos', []) as $file) {
-            $service->addMedia(storage_path('tmp/uploads/' . $file))->toMediaCollection('photos_videos');
+        if($file = $request->file("photo")) {
+
+            $name = time() . $file->getClientOriginalName();
+            $name = $file->move("images/services", $name);
+            $data['file'] = $name;
         }
 
-        if ($media = $request->input('ck-media', false)) {
-            Media::whereIn('id', $media)->update(['model_id' => $service->id]);
-        }
+        $service = Service::create($data);
 
         return redirect()->route('admin.services.index');
     }
@@ -57,23 +61,19 @@ class ServicesController extends Controller
 
     public function update(UpdateServiceRequest $request, Service $service)
     {
-        $service->update($request->all());
+        $data = ([
+            "title"       =>$request->title,
+            "description" =>$request->description,
+        ]);
 
-        if (count($service->photos_videos) > 0) {
-            foreach ($service->photos_videos as $media) {
-                if (!in_array($media->file_name, $request->input('photos_videos', []))) {
-                    $media->delete();
-                }
-            }
+        if($file = $request->file("photo")) {
+
+            $name = time() . $file->getClientOriginalName();
+            $name = $file->move("images/services", $name);
+            $data['file'] = $name;
         }
 
-        $media = $service->photos_videos->pluck('file_name')->toArray();
-
-        foreach ($request->input('photos_videos', []) as $file) {
-            if (count($media) === 0 || !in_array($file, $media)) {
-                $service->addMedia(storage_path('tmp/uploads/' . $file))->toMediaCollection('photos_videos');
-            }
-        }
+        $service->update($data);
 
         return redirect()->route('admin.services.index');
     }

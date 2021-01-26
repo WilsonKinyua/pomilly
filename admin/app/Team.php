@@ -30,6 +30,7 @@ class Team extends Model implements HasMedia
         'full_name',
         'professionalism',
         'line_of_work',
+        'file',
         'created_at',
         'updated_at',
         'deleted_at',
