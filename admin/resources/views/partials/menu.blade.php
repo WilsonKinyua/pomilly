@@ -84,7 +84,7 @@
                             </a>
                         </li>
                     @endcan
-                    @can('deposit_food_access')
+                    {{-- @can('deposit_food_access')
                         <li class="c-sidebar-nav-item">
                             <a href="{{ route("admin.deposit-foods.index") }}" class="c-sidebar-nav-link {{ request()->is("admin/deposit-foods") || request()->is("admin/deposit-foods/*") ? "c-active" : "" }}">
                                 <i class="fa-fw fas fa-utensils c-sidebar-nav-icon">
@@ -93,8 +93,8 @@
                                 {{ trans('cruds.depositFood.title') }}
                             </a>
                         </li>
-                    @endcan
-                    @can('volunteer_access')
+                    @endcan --}}
+                    {{-- @can('volunteer_access')
                         <li class="c-sidebar-nav-item">
                             <a href="{{ route("admin.volunteers.index") }}" class="c-sidebar-nav-link {{ request()->is("admin/volunteers") || request()->is("admin/volunteers/*") ? "c-active" : "" }}">
                                 <i class="fa-fw fab fa-app-store c-sidebar-nav-icon">
@@ -103,8 +103,8 @@
                                 {{ trans('cruds.volunteer.title') }}
                             </a>
                         </li>
-                    @endcan
-                    @can('donate_access')
+                    @endcan --}}
+                    {{-- @can('donate_access')
                         <li class="c-sidebar-nav-item">
                             <a href="{{ route("admin.donates.index") }}" class="c-sidebar-nav-link {{ request()->is("admin/donates") || request()->is("admin/donates/*") ? "c-active" : "" }}">
                                 <i class="fa-fw fas fa-hand-holding-usd c-sidebar-nav-icon">
@@ -113,7 +113,7 @@
                                 {{ trans('cruds.donate.title') }}
                             </a>
                         </li>
-                    @endcan
+                    @endcan --}}
                     @can('whats_new_access')
                         <li class="c-sidebar-nav-item">
                             <a href="{{ route("admin.whats-news.index") }}" class="c-sidebar-nav-link {{ request()->is("admin/whats-news") || request()->is("admin/whats-news/*") ? "c-active" : "" }}">

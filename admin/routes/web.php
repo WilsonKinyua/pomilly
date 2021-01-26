@@ -1,6 +1,9 @@
 <?php
 
+
+
 Route::redirect('/', 'login');
+
 
 
 Route::get('/home', function () {
@@ -169,3 +172,23 @@ Route::group(['prefix' => 'profile', 'as' => 'profile.', 'namespace' => 'Auth', 
 // Frontend
 
 Route::get('/', 'HomePageController@index')->name('home.page');
+Route::get('/compay/about', 'HomePageController@about')->name('company.aboutus');
+Route::get('/company/missionandvision', 'HomePageController@missionandvision')->name('company.mv');
+Route::get('/company/corevalues', 'HomePageController@corevalues')->name('company.corevalues');
+Route::get('/company/motto', 'HomePageController@motto')->name('company.motto');
+Route::get('/company/ourhistory', 'HomePageController@ourhistory')->name('company.ourhistory');
+Route::get('/company/whatisfoodrecycling', 'HomePageController@whatisfoodrecycling')->name('company.whatisfoodrecycling');
+Route::get('/company/whatwedo', 'HomePageController@whatwedo')->name('company.whatwedo');
+Route::get('/company/depositfood', 'HomePageController@depositfood')->name('company.depositfood');
+Route::get('/company/volunteer', 'HomePageController@volunteer')->name('company.volunteer');
+Route::get('/company/whatsnew', 'HomePageController@whatsnew')->name('company.whatsnew');
+Route::get('/company/donate', 'HomePageController@donate')->name('company.donate');
+Route::get('/company/careers', 'HomePageController@careers')->name('company.careers');
+Route::get('/team', 'HomePageController@team')->name('home.team');
+Route::get('/ourgoals', 'HomePageController@ourgoals')->name('home.ourgoals');
+Route::get('/contact', 'HomePageController@contact')->name('home.contact');
+
+
+// Route::get('/company/depositfood/{id}', 'HomePageController@singledepositfood')->name('company.singledepositfood');
+
+// Route::get('/company/depositfood/{$id}', ['as'=> 'company.singledepositfood', 'uses'=>'HomePageController@singledepositfood']);

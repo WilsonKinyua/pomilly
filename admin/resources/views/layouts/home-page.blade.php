@@ -46,7 +46,7 @@
 <body>
     <!--? Preloader Start -->
     <div id="preloader-active">
-        <div class="preloader d-flex align-items-center justify-content-center">
+        <div class=" d-flex align-items-center justify-content-center">
             <div class="preloader-inner position-relative">
                 <div class="preloader-circle"></div>
                 <div class="preloader-img pere-text">
@@ -112,24 +112,24 @@
 
                                         <li><a href="#">COMPANY</a>
                                             <ul class="submenu">
-                                                <li><a href="aboutus">About Us</a></li>
-                                                <li><a href="missionandvision">Mission & Vision</a></li>
-                                                <li><a href="corevalues">Core Values</a></li>
-                                                <li><a href="motto">Motto</a></li>
-                                                <li><a href="ourhistory">Our History</a></li>
-                                                <li><a href="whatisfoodrecycling">What is food Recycling</a></li>
-                                                <li><a href="whatwedo">What We do</a></li>
-                                                <li><a href="depositfood">Deposit Food</a></li>
-                                                <li><a href="volunteer">Volunteer</a></li>
-                                                <li><a href="donate">Donate</a></li>
-                                                <li><a href="whatsnew">What's New</a></li>
-                                                <li><a href="careers">Careers</a></li>
+                                                <li><a href="{{ route('company.aboutus')}}">About Us</a></li>
+                                                <li><a href="{{ route('company.mv')}}">Mission & Vision</a></li>
+                                                <li><a href="{{ route('company.corevalues')}}">Core Values</a></li>
+                                                <li><a href="{{ route('company.motto')}}">Motto</a></li>
+                                                <li><a href="{{ route('company.ourhistory')}}">Our History</a></li>
+                                                <li><a href="{{ route('company.whatisfoodrecycling')}}">What is food Recycling</a></li>
+                                                <li><a href="{{ route('company.whatwedo')}}">What We do</a></li>
+                                                <li><a href="{{ route('company.depositfood')}}">Deposit Food</a></li>
+                                                <li><a href="{{ route('company.volunteer')}}">Volunteer</a></li>
+                                                <li><a href="{{ route('company.donate')}}">Donate</a></li>
+                                                <li><a href="{{ route('company.whatsnew')}}">What's New</a></li>
+                                                <li><a href="{{ route('company.careers')}}">Careers</a></li>
                                             </ul>
                                         </li>
 
-                                        <li><a href="team">TEAM</a></li>
+                                        <li><a href="{{ route('home.team') }}">TEAM</a></li>
 
-                                        <li><a href="ourgoals">OUR GOALS</a></li>
+                                        <li><a href="{{ route('home.ourgoals') }}">OUR GOALS</a></li>
 
                                         <li><a href="#">SERVICES</a>
                                             <ul class="submenu">
@@ -146,7 +146,7 @@
                                         </li>
                                         <li><a href="blog">BLOG</a></li>
 
-                                        <li><a href="contactus">CONTACT US</a></li>
+                                        <li><a href="{{ route('home.contact') }}">CONTACT US</a></li>
                                     </ul>
                                 </nav>
                             </div>
@@ -191,10 +191,10 @@
                                 <div class="footer-tittle">
                                     <h4>Company</h4>
                                     <ul>
-                                        <li><a href="aboutus" style="color:white">About Us</a></li>
-                                        <li><a href="missionandvision" style="color:white">Mission & Vision</a>
+                                        <li><a href="{{ route('company.aboutus')}}" style="color:white">About Us</a></li>
+                                        <li><a href="{{ route('company.mv')}}" style="color:white">Mission & Vision</a>
                                         </li>
-                                        <li><a href="corevalues" style="color:white">Core Values</a></li>
+                                        <li><a href="{{ route('company.corevalues')}}" style="color:white">Core Values</a></li>
 
                                     </ul>
                                 </div>
@@ -222,9 +222,9 @@
                                 <div class="footer-tittle">
                                     <h4>Quick Links</h4>
                                     <ul>
-                                        <li><a href="contactus" style="color:white">Contact Us</a></li>
-                                        <li><a href="team" style="color:white">Our Team</a></li>
-                                        <li><a href="ourgoals" style="color:white">Our Goals</a></li>
+                                        <li><a href="{{ route('home.contact')}}" style="color:white">Contact Us</a></li>
+                                        <li><a href="{{ route('home.team')}}" style="color:white">Our Team</a></li>
+                                        <li><a href="{{ route('home.ourgoals')}}" style="color:white">Our Goals</a></li>
 
                                     </ul>
                                 </div>

@@ -2,6 +2,13 @@
 
 namespace App\Http\Controllers;
 
+use App\CoreValue;
+use App\DepositFood;
+use App\MissionAndVision;
+use App\Motto;
+use App\OurHistory;
+use App\WhatIsFoodRecyling;
+use App\WhatWeDo;
 use Illuminate\Http\Request;
 
 class HomePageController extends Controller
@@ -24,43 +31,63 @@ class HomePageController extends Controller
 
     public function missionandvision()
     {
-        return view('company.missionandvision');
+
+        $missionAndVisions = MissionAndVision::all();
+
+        return view('company.missionandvision',compact('missionAndVisions'));
     }
 
 
     public function corevalues()
     {
-        return view('company.corevalues');
+        $coreValues = CoreValue::all();
+
+        return view('company.corevalues',compact('coreValues'));
     }
 
 
     public function motto()
     {
-        return view('company.motto');
+
+        $mottoes = Motto::all();
+
+        return view('company.motto',compact('mottoes'));
     }
 
 
     public function ourhistory()
     {
-        return view('company.ourhistory');
+        $histo = OurHistory::all();
+        return view('company.ourhistory',compact('histo'));
     }
 
 
     public function whatisfoodrecycling()
     {
-        return view('company.whatisfoodrecycling');
+
+        $wifr = WhatIsFoodRecyling::all();
+
+        return view('company.whatisfoodrecycling',compact('wifr'));
     }
 
 
     public function whatwedo()
     {
-        return view('company.whatwedo');
+        $whatwedo = WhatWeDo::all();
+        return view('company.whatwedo',compact('whatwedo'));
     }
 
 
     public function depositfood()
     {
-        return view('company.depositfood');
+        $df = DepositFood::all();
+
+        return view('company.depositfood',compact('df'));
+    }
+
+    public function singledepositfood(DepositFood $singledepositfood) {
+
+        return view('company.singledepositfood',compact('singledepositfood'));
     }
 
     public function volunteer()
@@ -85,13 +112,19 @@ class HomePageController extends Controller
 
     public function team()
     {
-        return view('team.team');
+        return view('team');
     }
 
     public function ourgoals()
     {
         return view('team.ourgoals');
     }
+
+    public function contact()
+    {
+        return view('contact');
+    }
+
 
     /**
      * Show the form for creating a new resource.
