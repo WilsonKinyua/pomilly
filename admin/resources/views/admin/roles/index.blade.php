@@ -65,6 +65,9 @@
                                         {{ trans('global.edit') }}
                                     </a>
                                 @endcan
+                                @if ($role->id == 1)
+
+                                @else
 
                                 @can('role_delete')
                                     <form action="{{ route('admin.roles.destroy', $role->id) }}" method="POST" onsubmit="return confirm('{{ trans('global.areYouSure') }}');" style="display: inline-block;">
@@ -74,6 +77,7 @@
                                     </form>
                                 @endcan
 
+                                @endif
                             </td>
 
                         </tr>
@@ -132,7 +136,7 @@
       $($.fn.dataTable.tables(true)).DataTable()
           .columns.adjust();
   });
-  
+
 })
 
 </script>
