@@ -25,6 +25,7 @@
                         <th>
                             {{ trans('cruds.whatWeDo.fields.id') }}
                         </th>
+                        <th>Description</th>
                         <th>
                             &nbsp;
                         </th>
@@ -38,6 +39,9 @@
                             </td>
                             <td>
                                 {{ $whatWeDo->id ?? '' }}
+                            </td>
+                            <td>
+                                {!! $whatWeDo->description ?? '' !!}
                             </td>
                             <td>
                                 @can('what_we_do_show')
@@ -118,7 +122,7 @@
       $($.fn.dataTable.tables(true)).DataTable()
           .columns.adjust();
   });
-  
+
 })
 
 </script>

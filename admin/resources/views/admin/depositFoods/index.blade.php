@@ -29,6 +29,9 @@
                             {{ trans('cruds.depositFood.fields.title') }}
                         </th>
                         <th>
+                            Description
+                        </th>
+                        <th>
                             &nbsp;
                         </th>
                     </tr>
@@ -44,6 +47,9 @@
                             </td>
                             <td>
                                 {{ $depositFood->title ?? '' }}
+                            </td>
+                            <td>
+                                {!! $depositFood->description ?? '' !!}
                             </td>
                             <td>
                                 @can('deposit_food_show')
@@ -124,7 +130,7 @@
       $($.fn.dataTable.tables(true)).DataTable()
           .columns.adjust();
   });
-  
+
 })
 
 </script>

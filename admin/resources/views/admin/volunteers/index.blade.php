@@ -29,6 +29,9 @@
                             {{ trans('cruds.volunteer.fields.title') }}
                         </th>
                         <th>
+                            Description
+                        </th>
+                        <th>
                             &nbsp;
                         </th>
                     </tr>
@@ -44,6 +47,9 @@
                             </td>
                             <td>
                                 {{ $volunteer->title ?? '' }}
+                            </td>
+                            <td>
+                                {!! $volunteer->description ?? '' !!}
                             </td>
                             <td>
                                 @can('volunteer_show')
@@ -124,7 +130,7 @@
       $($.fn.dataTable.tables(true)).DataTable()
           .columns.adjust();
   });
-  
+
 })
 
 </script>

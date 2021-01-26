@@ -29,6 +29,9 @@
                             {{ trans('cruds.donate.fields.title') }}
                         </th>
                         <th>
+                            Description
+                        </th>
+                        <th>
                             &nbsp;
                         </th>
                     </tr>
@@ -44,6 +47,9 @@
                             </td>
                             <td>
                                 {{ $donate->title ?? '' }}
+                            </td>
+                            <td>
+                                {!! $donate->descrption ?? '' !!}
                             </td>
                             <td>
                                 @can('donate_show')
@@ -124,7 +130,7 @@
       $($.fn.dataTable.tables(true)).DataTable()
           .columns.adjust();
   });
-  
+
 })
 
 </script>

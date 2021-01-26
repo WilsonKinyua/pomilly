@@ -26,6 +26,9 @@
                             {{ trans('cruds.motto.fields.id') }}
                         </th>
                         <th>
+                            Motto
+                        </th>
+                        <th>
                             &nbsp;
                         </th>
                     </tr>
@@ -38,6 +41,9 @@
                             </td>
                             <td>
                                 {{ $motto->id ?? '' }}
+                            </td>
+                            <td>
+                                {!! $motto->core_values ?? '' !!}
                             </td>
                             <td>
                                 @can('motto_show')
@@ -118,7 +124,7 @@
       $($.fn.dataTable.tables(true)).DataTable()
           .columns.adjust();
   });
-  
+
 })
 
 </script>

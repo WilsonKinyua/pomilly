@@ -29,6 +29,9 @@
                             {{ trans('cruds.whatsNew.fields.title') }}
                         </th>
                         <th>
+                            Description
+                        </th>
+                        <th>
                             &nbsp;
                         </th>
                     </tr>
@@ -44,6 +47,14 @@
                             </td>
                             <td>
                                 {{ $whatsNew->title ?? '' }}
+                            </td>
+                            <td>
+                                @if ($whatsNew->desciption == '')
+                                    No Content available!!!!
+                                @else
+                                {!! $whatsNew->desciption ?? '' !!}
+                                @endif
+
                             </td>
                             <td>
                                 @can('whats_new_show')
@@ -124,7 +135,7 @@
       $($.fn.dataTable.tables(true)).DataTable()
           .columns.adjust();
   });
-  
+
 })
 
 </script>

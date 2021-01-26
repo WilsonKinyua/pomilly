@@ -10,7 +10,7 @@ class CreateWhatIsFoodRecylingsTable extends Migration
     {
         Schema::create('what_is_food_recylings', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->longText('description');
+            $table->longText('description')->nullable();
             $table->text('file')->nullable();
             $table->timestamps();
             $table->softDeletes();

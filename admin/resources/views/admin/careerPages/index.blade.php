@@ -29,6 +29,9 @@
                             {{ trans('cruds.careerPage.fields.title') }}
                         </th>
                         <th>
+                            Description
+                        </th>
+                        <th>
                             &nbsp;
                         </th>
                     </tr>
@@ -44,6 +47,13 @@
                             </td>
                             <td>
                                 {{ $careerPage->title ?? '' }}
+                            </td>
+                            <td>
+                                @if ($careerPage->desciption == '')
+                                    <b style="color: red">No Content available!!!!</b>
+                                @else
+                                {!! $careerPage->desciption ?? '' !!}
+                                @endif
                             </td>
                             <td>
                                 @can('career_page_show')
@@ -124,7 +134,7 @@
       $($.fn.dataTable.tables(true)).DataTable()
           .columns.adjust();
   });
-  
+
 })
 
 </script>

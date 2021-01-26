@@ -26,6 +26,9 @@
                             {{ trans('cruds.ourGoal.fields.id') }}
                         </th>
                         <th>
+                            Description
+                        </th>
+                        <th>
                             &nbsp;
                         </th>
                     </tr>
@@ -38,6 +41,9 @@
                             </td>
                             <td>
                                 {{ $ourGoal->id ?? '' }}
+                            </td>
+                            <td>
+                                {!! $ourGoal->description ?? '' !!}
                             </td>
                             <td>
                                 @can('our_goal_show')
@@ -118,7 +124,7 @@
       $($.fn.dataTable.tables(true)).DataTable()
           .columns.adjust();
   });
-  
+
 })
 
 </script>

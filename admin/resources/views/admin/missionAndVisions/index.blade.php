@@ -25,6 +25,8 @@
                         <th>
                             {{ trans('cruds.missionAndVision.fields.id') }}
                         </th>
+                        <th>Mission</th>
+                        <th>Vision</th>
                         <th>
                             &nbsp;
                         </th>
@@ -38,6 +40,12 @@
                             </td>
                             <td>
                                 {{ $missionAndVision->id ?? '' }}
+                            </td>
+                            <td>
+                                {!! $missionAndVision->mission ?? '' !!}
+                            </td>
+                            <td>
+                                {!! $missionAndVision->vision ?? '' !!}
                             </td>
                             <td>
                                 @can('mission_and_vision_show')
@@ -118,7 +126,7 @@
       $($.fn.dataTable.tables(true)).DataTable()
           .columns.adjust();
   });
-  
+
 })
 
 </script>

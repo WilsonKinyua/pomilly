@@ -26,6 +26,9 @@
                             {{ trans('cruds.ourHistory.fields.id') }}
                         </th>
                         <th>
+                            Our History
+                        </th>
+                        <th>
                             &nbsp;
                         </th>
                     </tr>
@@ -38,6 +41,9 @@
                             </td>
                             <td>
                                 {{ $ourHistory->id ?? '' }}
+                            </td>
+                            <td>
+                                {!! $ourHistory->our_history ?? '' !!}
                             </td>
                             <td>
                                 @can('our_history_show')
@@ -118,7 +124,7 @@
       $($.fn.dataTable.tables(true)).DataTable()
           .columns.adjust();
   });
-  
+
 })
 
 </script>
