@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Contact;
 use App\CoreValue;
 use App\DepositFood;
 use App\MissionAndVision;
@@ -144,7 +145,8 @@ class HomePageController extends Controller
 
     public function contact()
     {
-        return view('contact');
+        $contact = Contact::all();
+        return view('contact',compact('contact'));
     }
 
 

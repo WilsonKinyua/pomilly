@@ -205,14 +205,15 @@
                                 <div class="footer-tittle">
                                     <h4>Services</h4>
                                     <ul>
-                                        <li><a href="sustainableagriculturalconsultancy"
-                                                style="color:white">SUSTAINABLE AGRICULTURAL CONSULTANCY</a></li>
-                                        <li><a href="foodwasterecyclingindustry" style="color:white">FOOD WASTE
-                                                RECYCLING INDUSTRY</a></li>
-                                        <li><a href="foodbankingfoodsecurity" style="color:white">FOOD BANKING &
-                                                FOOD SECURITY CONSULTANCY</a></li>
-                                        <li><a href="eosphconsultancy" style="color:white">ENVIRONMENTAL,
-                                                OCCUPATIONAL SAFETY & PUBLIC HEALTH CONSULTANCY</a></li>
+                                        <li><a style="color:white" href="{{ route('service.sustainableagriculturalconsultancy')}}">SUSTAINABLE
+                                                AGRICULTURAL CONSULTANCY</a></li>
+                                        <li><a style="color:white" href="{{ route('service.foodwasterecyclingindustry')}}">FOOD WASTE RECYCLING
+                                                INDUSTRY</a></li>
+                                        <li><a style="color:white" href="{{ route('service.foodbankingfoodsecurity')}}">FOOD BANKING & FOOD SECURITY
+                                                CONSULTANCY</a></li>
+                                        <li><a style="color:white" href="{{ route('service.eosphconsultancy')}}">ENVIRONMENTAL, OCCUPATIONAL SAFETY &
+                                                PUBLIC HEALTH CONSULTANCY</a></li>
+
                                     </ul>
                                 </div>
                             </div>
