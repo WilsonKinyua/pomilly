@@ -28,23 +28,24 @@
         <div class="container">
             <div class="row">
 
+                @foreach ($teams as $team)
 
                 <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="single-team mb-30">
                         <div class="team-img">
-                            <img src="assets/img/PHOTO-2020-12-20-18-42-571.jpg" width="250px" height="320px"
+                            <img src="{{ $team->file }}" width="250px" height="320px"
                                 alt="">
 
                         </div>
                         <div class="team-caption">
-                            <h3><a href="#">Pondi Collins</a></h3>
-                            <p class="deg">CEO & Founder</p>
-                            <p>An Engineer, a farmer (Advance and Technological ), Health, Environmental and Safety
-                                (HSE) Consultant, Environment and Climate Research Analyst</p>
+                            <h3><a href="#">{{ $team->full_name }}</a></h3>
+                            <p class="deg">{{ $team->professionalism }}</p>
+                            <p>{{ $team->line_of_work}}</p>
                         </div>
                     </div>
                 </div>
 
+                @endforeach
             </div>
         </div>
     </div>

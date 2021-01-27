@@ -7,6 +7,7 @@ use App\DepositFood;
 use App\MissionAndVision;
 use App\Motto;
 use App\OurHistory;
+use App\Team;
 use App\WhatIsFoodRecyling;
 use App\WhatWeDo;
 use Illuminate\Http\Request;
@@ -112,7 +113,8 @@ class HomePageController extends Controller
 
     public function team()
     {
-        return view('team');
+        $teams = Team::all();
+        return view('team',compact('teams'));
     }
 
     public function ourgoals()
