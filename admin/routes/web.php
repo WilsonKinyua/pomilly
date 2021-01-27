@@ -189,6 +189,11 @@ Route::get('/ourgoals', 'HomePageController@ourgoals')->name('home.ourgoals');
 Route::get('/contact', 'HomePageController@contact')->name('home.contact');
 
 
+Route::get('/services/sustainableagriculturalconsultancy', 'HomePageController@s1')->name('service.sustainableagriculturalconsultancy');
+Route::get('/services/foodwasterecyclingindustry', 'HomePageController@s2')->name('service.foodwasterecyclingindustry');
+Route::get('/services/foodbankingfoodsecurity', 'HomePageController@s3')->name('service.foodbankingfoodsecurity');
+Route::get('/services/eosphconsultancy', 'HomePageController@s4')->name('service.eosphconsultancy');
+
 // Route::get('/company/depositfood/{id}', 'HomePageController@singledepositfood')->name('company.singledepositfood');
 
 // Route::get('/company/depositfood/{$id}', ['as'=> 'company.singledepositfood', 'uses'=>'HomePageController@singledepositfood']);

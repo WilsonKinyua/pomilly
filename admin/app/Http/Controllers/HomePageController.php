@@ -117,6 +117,26 @@ class HomePageController extends Controller
         return view('team',compact('teams'));
     }
 
+    public function s1() {
+
+        return view('services.sustainableagriculturalconsultancy');
+    }
+
+    public function s2() {
+
+        return view('services.foodwasterecyclingindustry');
+    }
+
+    public function s3() {
+
+        return view('services.foodbankingfoodsecurity');
+    }
+
+    public function s4() {
+
+        return view('services.eosphconsultancy');
+    }
+
     public function ourgoals()
     {
         return view('team.ourgoals');

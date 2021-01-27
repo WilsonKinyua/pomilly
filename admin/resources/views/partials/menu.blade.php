@@ -157,7 +157,7 @@
                 </a>
             </li>
         @endcan
-        @can('service_access')
+        {{-- @can('service_access')
             <li class="c-sidebar-nav-item">
                 <a href="{{ route("admin.services.index") }}" class="c-sidebar-nav-link {{ request()->is("admin/services") || request()->is("admin/services/*") ? "c-active" : "" }}">
                     <i class="fa-fw fas fa-list-alt c-sidebar-nav-icon">
@@ -166,7 +166,7 @@
                     {{ trans('cruds.service.title') }}
                 </a>
             </li>
-        @endcan
+        @endcan --}}
         @can('blog_access')
             <li class="c-sidebar-nav-item">
                 <a href="{{ route("admin.blogs.index") }}" class="c-sidebar-nav-link {{ request()->is("admin/blogs") || request()->is("admin/blogs/*") ? "c-active" : "" }}">

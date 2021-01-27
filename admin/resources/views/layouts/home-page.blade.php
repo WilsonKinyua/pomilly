@@ -133,13 +133,13 @@
 
                                         <li><a href="#">SERVICES</a>
                                             <ul class="submenu">
-                                                <li><a href="sustainableagriculturalconsultancy">SUSTAINABLE
+                                                <li><a href="{{ route('service.sustainableagriculturalconsultancy')}}">SUSTAINABLE
                                                         AGRICULTURAL CONSULTANCY</a></li>
-                                                <li><a href="foodwasterecyclingindustry">FOOD WASTE RECYCLING
+                                                <li><a href="{{ route('service.foodwasterecyclingindustry')}}">FOOD WASTE RECYCLING
                                                         INDUSTRY</a></li>
-                                                <li><a href="foodbankingfoodsecurity">FOOD BANKING & FOOD SECURITY
+                                                <li><a href="{{ route('service.foodbankingfoodsecurity')}}">FOOD BANKING & FOOD SECURITY
                                                         CONSULTANCY</a></li>
-                                                <li><a href="eosphconsultancy">ENVIRONMENTAL, OCCUPATIONAL SAFETY &
+                                                <li><a href="{{ route('service.eosphconsultancy')}}">ENVIRONMENTAL, OCCUPATIONAL SAFETY &
                                                         PUBLIC HEALTH CONSULTANCY</a></li>
 
                                             </ul>
